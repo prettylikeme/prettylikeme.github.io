@@ -1,0 +1,1590 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<title>
+  
+    Tag: C++
+  
+</title>
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/tags/C/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Yang">
+<meta name="twitter:card" content="summary">
+
+
+  <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+
+
+
+
+
+  <link rel="icon" href="/favicon.png">
+
+
+
+<link rel="stylesheet" href="/perfect-scrollbar/css/perfect-scrollbar.min.css">
+
+
+<link rel="stylesheet" href="/styles/main.css">
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 5.2.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+<body
+  
+    class="monochrome"
+  
+  >
+  <div class="mobile-header">
+  <button class="sidebar-toggle" type="button">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="title" href="/">Hexo</a>
+</div>
+
+  <div class="main-container">
+    <div class="sidebar">
+  <div class="header">
+    <h1 class="title"><a href="/">Hexo</a></h1>
+    
+    <div class="info">
+      <div class="content">
+        
+        
+          <div class="author">Yang</div>
+        
+      </div>
+      
+        <div class="avatar">
+          
+            <a href="/about"><img src="https://cn.gravatar.com/avatar/35fef74d731255cd569c2c2b0b9e87e4?s=200"></a>
+          
+        </div>
+      
+    </div>
+  </div>
+  <div class="body">
+    
+      
+        <ul class="nav">
+          
+            
+              <li>
+                <a href="/" title="主页" external="false">主页</a>
+              </li>
+            
+          
+        </ul>
+      
+        <ul class="nav">
+          
+            
+              <li class="category-list-container">
+                <a href="javascript:;">分类</a>
+                <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android/">Android</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/C/">C++</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Html/">Html</a><span class="category-list-count">30</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Html/JavaScript/">JavaScript</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Html/JavaScript/ES6/">ES6</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Html/Vue/">Vue</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Math/">Math</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Python/">Python</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Qt/">Qt</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/">正则表达式</a><span class="category-list-count">1</span></li></ul>
+              </li>
+            
+          
+            
+              <li class="tag-list-container">
+                <a href="javascript:;">标签</a>
+                <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Android/" rel="tag">Android</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Android-Studio/" rel="tag">Android Studio</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/" rel="tag">C++</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C-11/" rel="tag">C++ 11</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/COM-%E7%BB%84%E4%BB%B6/" rel="tag">COM 组件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CSS/" rel="tag">CSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Chrome/" rel="tag">Chrome</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Chrome-%E6%8F%92%E4%BB%B6/" rel="tag">Chrome 插件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DirextX/" rel="tag">DirextX</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DirextX-12/" rel="tag">DirextX 12</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ES5/" rel="tag">ES5</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ES6/" rel="tag">ES6</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/" rel="tag">Git</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Html/" rel="tag">Html</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IntelliJ-Idea/" rel="tag">IntelliJ Idea</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaScript/" rel="tag">JavaScript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/" rel="tag">Linux</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Math/" rel="tag">Math</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Node-js/" rel="tag">Node.js</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Parcel/" rel="tag">Parcel</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Promise/" rel="tag">Promise</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Proxy/" rel="tag">Proxy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python/" rel="tag">Python</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Qt/" rel="tag">Qt</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SVG/" rel="tag">SVG</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Scoop/" rel="tag">Scoop</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Sublime-Text-3/" rel="tag">Sublime Text 3</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Symbol/" rel="tag">Symbol</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TypeScript/" rel="tag">TypeScript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VSCode/" rel="tag">VSCode</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue-Router/" rel="tag">Vue Router</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue-js/" rel="tag">Vue.js</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue%E6%BA%90%E7%A0%81/" rel="tag">Vue源码</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Webpack/" rel="tag">Webpack</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Win32-%E5%BC%80%E5%8F%91/" rel="tag">Win32 开发</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/awk/" rel="tag">awk</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bat/" rel="tag">bat</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cmd/" rel="tag">cmd</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/grep/" rel="tag">grep</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jQuery/" rel="tag">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vector/" rel="tag">vector</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xarg/" rel="tag">xarg</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8E%9F%E7%90%86/" rel="tag">原理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%91%BD%E4%BB%A4/" rel="tag">命令</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%97%E4%BD%93/" rel="tag">字体</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag">工具</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7/" rel="tag">打包工具</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8F%92%E4%BB%B6/" rel="tag">插件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/" rel="tag">插件开发</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" rel="tag">操作系统</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" rel="tag">正则表达式</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/" rel="tag">注册表</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" rel="tag">游戏开发</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E8%84%91%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/" rel="tag">电脑性能测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A0%B4%E8%A7%A3/" rel="tag">破解</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%BE%E7%BD%AE/" rel="tag">设置</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BD%AF%E4%BB%B6/" rel="tag">软件</a><span class="tag-list-count">6</span></li></ul>
+              </li>
+            
+          
+            
+              <li class="archive-list-container">
+                <a href="javascript:;">归档</a>
+                <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/">2018</a><span class="archive-list-count">48</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/">2017</a><span class="archive-list-count">7</span></li></ul>
+              </li>
+            
+          
+        </ul>
+      
+    
+  </div>
+</div>
+
+    <div class="main-content">
+      
+        <div style="max-width: 1000px">
+      
+          <h1>C++</h1>
+
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2017/06/10/%E5%BC%80%E5%8F%91/C++/DirectX/%E4%BD%BF%E7%94%A8C++%E8%BF%9B%E8%A1%8C%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" >
+  使用 C++ 进行游戏开发
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2017/06/10/%E5%BC%80%E5%8F%91/C++/DirectX/%E4%BD%BF%E7%94%A8C++%E8%BF%9B%E8%A1%8C%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/"><span class="article-date">
+  2017-06-10
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/C/">C++</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" rel="tag">游戏开发</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <blockquote>
+<ul>
+<li><a target="_blank" rel="noopener" href="http://blog.csdn.net/poem_qianmo">毛星云CSDN</a></li>
+</ul>
+</blockquote>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2017/05/12/%E5%BC%80%E5%8F%91/C++/DirectX/DirextX12/" >
+  DirextX 12
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2017/05/12/%E5%BC%80%E5%8F%91/C++/DirectX/DirextX12/"><span class="article-date">
+  2017-05-12
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/C/">C++</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DirextX/" rel="tag">DirextX</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DirextX-12/" rel="tag">DirextX 12</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" rel="tag">游戏开发</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <p>参考文档：</p>
+<ul>
+<li>《Introduction to 3D Game Programming with DirectX 12》 by Frank Luna<ul>
+<li><a href="www.d3dcoder.net">www.d3dcoder.net</a></li>
+<li><a href="www.merclearning.com">www.merclearning.com</a></li>
+</ul>
+</li>
+</ul>
+<p>参考链接：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://msdn.microsoft.com/enus/library/windows/desktop/dn899121%28v=vs.85%29.aspx">DX12 API参考文档</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/Microsoft/DirectX-Graphics-Samples">DX12 程序样本</a></li>
+</ul>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2017/05/12/%E5%BC%80%E5%8F%91/C++/COM%E7%BB%84%E4%BB%B6/" >
+  COM 组件
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2017/05/12/%E5%BC%80%E5%8F%91/C++/COM%E7%BB%84%E4%BB%B6/"><span class="article-date">
+  2017-05-12
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/C/">C++</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/COM-%E7%BB%84%E4%BB%B6/" rel="tag">COM 组件</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <h2 id="COM"><a href="#COM" class="headerlink" title="COM"></a>COM</h2><blockquote>
+<ul>
+<li><a target="_blank" rel="noopener" href="http://www.vckbase.com/index.php/wv/144">COM编程入门</a></li>
+<li><a target="_blank" rel="noopener" href="http://blog.csdn.net/guyue6670/article/details/2243781">C++中COM调用方法</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.ccidnet.com/2002/1111/30384.shtml">WTL框架窗口分析</a></li>
+<li><a target="_blank" rel="noopener" href="http://andylin02.iteye.com/blog/453079">ATL入门：利用ATL编写简单的COM组件</a></li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="组件的创建"><a href="#组件的创建" class="headerlink" title="组件的创建"></a>组件的创建</h2><ol>
+<li>实现 <code>IClassFactory</code> 或 <code>IClassFactory2</code> 接口；</li>
+<li>实现 <code>DllGetClassObject</code> 函数；</li>
+</ol>
+<hr>
+<h2 id="定义一个COM接口"><a href="#定义一个COM接口" class="headerlink" title="定义一个COM接口"></a>定义一个COM接口</h2><p>定义COM接口时应包含&lt;*ObjBase.h*&gt;头文件：<br>该头文件中包含 <code>interface</code> 宏</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> interface struct</span></span><br></pre></td></tr></table></figure>
+
+<p>在上述定义中使用 <code>struct</code> 的原因在于 <code>struct</code> 的成员将自动具有公有的属性。</p>
+<ul>
+<li>COM接口在C++中是用纯抽象基类实现的。</li>
+<li>一个COM组件可以支持多个接口。</li>
+<li>一个C++类可以使用多继承来实现一个支持多个接口的组件。</li>
+</ul>
+<p>如下例：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ObjBase.h&gt;</span></span></span><br><span class="line"></span><br><span class="line">Interface IX</span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> __stdcall <span class="title">Fx1</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> __stdcall <span class="title">Fx2</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>__stdcall或Pascal调用约定</strong></p>
+<p>用 <code>__stdcall</code> 标记的函数将使用PASCAL调用约定，即这些函数将在返回到调用者之前将参数从栈中删除。<br>Windows采用PASCAL调用约定的原因在于这种约定可以减少代码的大小，另外还有一个原因是早期的Windows是运行于640KB的系统上的。<br>带有变参（参数数目可变）的函数仍然使用C调用约定，即 <code>__cdecl</code> 。</p>
+<p>在&lt;*Windef.h*&gt;中，pascal的定义如下:</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pascal __stdcall</span></span><br></pre></td></tr></table></figure>
+
+<p>也可以使用&lt;*ObjBase.h*&gt;中所定义的如下宏：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> STDMETHODCALLTYPE __stdcall</span></span><br></pre></td></tr></table></figure>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th>虚函数表</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>pIX</td>
+<td>=&gt;</td>
+<td>vtbl指针</td>
+<td>=&gt;</td>
+<td>&amp;Fx1</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&amp;Fx2</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&amp;Fx3</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>&amp;Fx4</td>
+</tr>
+</tbody></table>
+<p>纯抽象基类只有纯虚函数，而没有任何实例数据。</p>
+<p>所有的COM接口都必须继承一个名为 <code>IUnknown</code> 的接口<br>该接口的定义包含在&lt;*UNKNWN.h*&gt;头文件中。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">interface IUnknown</span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> HRESULT __stdcall <span class="title">QueryInterface</span><span class="params">(<span class="keyword">const</span> IID&amp; iid, <span class="keyword">void</span> ** ppv)</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function">vitrual ULONG __stdcall <span class="title">AddRef</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> ULONG __stdcall <span class="title">Release</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>定义一个接口：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">interface IX : IUnknown</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">// Code here</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="QueryInterface"><a href="#QueryInterface" class="headerlink" title="QueryInterface"></a>QueryInterface</h3><p>客户可以通过此函数来查询某个组件是否支持某个特定的接口。<br>若支持，则 <code>QueryInterface</code> 将返回一个指向此接口的指针；否则返回值将是一个错误代码。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">HRESULT __stdcall <span class="title">QueryInterface</span><span class="params">(<span class="keyword">const</span> IID&amp; iid, <span class="keyword">void</span> **ppv)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>其中的第一个参数标识了客户所需的接口，此参数是一个“接口标识符”（IID）结构。<br>另外一个参数用来存放所请求接口指针的地址。<br><code>QueryInterface</code> 返回的是一个HRESULT值，此值实际上并不像其名称所表示的那样是标识某个结果的句柄；相反，它是一个具有特定格式的32位值。<br><code>QueryInterface</code> 可以返回 <code>S_OK</code> 或 <code>E_NOINTERFACE</code> ，客户不应将其返回值直接同这两个值进行比较，而应使用SUCCEEDED宏或FAILED宏。</p>
+<ul>
+<li><p><strong>QueryInterface的使用</strong></p>
+  <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">foo</span><span class="params">(IUnknown* pI)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">// Define a pointer for the interface.</span></span><br><span class="line">    IX* pIX = <span class="literal">NULL</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Ask for interface IX.</span></span><br><span class="line">    HRESULT hr = pI-&gt;QueryInterface(IID_IX, (<span class="keyword">void</span>**)&amp;pIX);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Check return value.</span></span><br><span class="line">    <span class="keyword">if</span> (SUCCEEDED(hr))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// Use interface.</span></span><br><span class="line">        pIX-&gt;Fx();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>注意</strong>：在调用 <code>QueryInterface</code> 之前，我们将pIX初始化为NULL，这是一种比较好的编程习惯。由于 <code>QueryInterface</code> 是由程序员而不是系统实现的，因此某些组件可能并不会在查询失败时将此指针置为NULL。因此为安全起见，在程序中还是我们自己将其置为NULL比较好。</p>
+</blockquote>
+</li>
+<li><p><strong>QueryInterface的实现</strong>  </p>
+<p>若组件支持客户指定的接口，那么应返回 <code>S_OK</code> 以及相应的指针；若不支持，返回应是 <code>E_NOINTERFACE</code> ，并将相应的指针返回值置成NULL。</p>
+<p>如：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">interface IX : IUnKnown &#123;<span class="comment">/*...*/</span>&#125;;  </span><br><span class="line">interface IY : IUnKnown &#123;<span class="comment">/*...*/</span>&#125;;  </span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">CA</span> :</span> <span class="keyword">public</span> IX, <span class="keyword">public</span> IY &#123;<span class="comment">/*...*/</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function">HRESULT __stdcall <span class="title">CA::QueryInterface</span><span class="params">(<span class="keyword">const</span> IID&amp; iid, <span class="keyword">void</span>** ppv)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (iid == IID_IUnknown)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// The client wants the IUnknown interface.</span></span><br><span class="line">        *ppv = <span class="keyword">static_cast</span>&lt;IX*&gt;(<span class="keyword">this</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (iid == IID_IX)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// The client wants the IX interface.</span></span><br><span class="line">        *ppv = <span class="keyword">static_cast</span>&lt;IX*&gt;(<span class="keyword">this</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (iid == IID_IY)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// The client wants the IY interface.</span></span><br><span class="line">        *ppv = <span class="keyword">static_cast</span>&lt;IY*&gt;(<span class="keyword">this</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">// We don&#x27;t support the interface the client</span></span><br><span class="line">        <span class="comment">// wants. Be sure to set the resulting pointer</span></span><br><span class="line">        <span class="comment">// to NULL.</span></span><br><span class="line">        *ppv = <span class="literal">NULL</span>;</span><br><span class="line">        <span class="keyword">return</span> E_NOINTERFACE;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">static_cast</span>&lt;IUnknown*&gt;(*ppv)-&gt;AddRef();</span><br><span class="line">    <span class="keyword">return</span> S_OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>QueryInterface返回的IUnknown指针总是相同的。</li>
+<li>若客户曾经获取过某个接口，那么它将总能获取此接口。</li>
+<li>客户可以再次获取已经拥有的接口。</li>
+<li>客户可以返回到起始找接口。</li>
+<li>若能够从某个接口获取某特定接口，那么从任意接口都将可以获取此接口。</li>
+</ul>
+</li>
+<li><p><strong>组件新版本的处理</strong></p>
+<p>每一个接口都有一个唯一的接口标识符（IID），一般情况下，我们不会改变接口，但可以建立一个新接口并为之指定一个新的IID。当 <code>QueryInterface</code> 接收到对老IID的查询时，它将返回老的接口。而当它收到对新的IID的查询时，它将返回新的接口。就 <code>QueryInterface</code> 而言，一个IID就是一个接口。</p>
+<p><strong>何时需要建立一个新版本</strong></p>
+<p>当改变了下列条件中的任何一个时，就应给新接口指定新的ID：</p>
+<ul>
+<li>接口中函数的数目。</li>
+<li>接口中函数的顺序。</li>
+<li>某个函数的参数。</li>
+<li>某个函数参数的顺序。</li>
+<li>某个函数参数的类型。</li>
+<li>函数可能的返回值。</li>
+<li>函数返回值的类型。</li>
+<li>函数参数的含义。</li>
+<li>接口中函数的含义。</li>
+</ul>
+<p>总之，只要是所做的修改将会导致已有客户不能正常运行，就应为接口指定新的ID。<br>在建立了某个接口的新版本时，也应相应地修改其名称。COM关于新版本名称的约定是在老名称后面加上一个数字。</p>
+</li>
+</ul>
+<hr>
+<h2 id="AddRef及Release的使用规则"><a href="#AddRef及Release的使用规则" class="headerlink" title="AddRef及Release的使用规则"></a>AddRef及Release的使用规则</h2><h3 id="正确使用引用计数"><a href="#正确使用引用计数" class="headerlink" title="正确使用引用计数"></a>正确使用引用计数</h3><ol>
+<li>在返回之前调用 <code>AddRef</code> 。对于那些返回接口指针的函数，在返回之前应该用相应的指针调用 <code>AddRef</code> 。这些函数包括 <code>QueryInterface</code> 及 <code>CreateInstance</code> 。这样当客户从这样的函数得到一个接口后，它将无需调用 <code>AddRef</code> 。</li>
+<li>使用完接口之后调用 <code>Release</code> 。在使用完某个接口之后应调用此接口的 <code>Release</code> 函数。</li>
+<li>在赋值之后调用 <code>AddRef</code> 。在将一个接口指针赋值给另外一个接口指针时，应调用 <code>AddRef</code> 。换句话说，在建立接口的另外一个引用之后应增加相应组件的引用计数。</li>
+</ol>
+<h3 id="AddRef和Release的实现"><a href="#AddRef和Release的实现" class="headerlink" title="AddRef和Release的实现"></a>AddRef和Release的实现</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">ULONG __stdcall <span class="title">AddRef</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">return</span> InterlockedIncrement(&amp;m_cRef);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">ULONG __stdcall <span class="title">Release</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (InterlockedDecrement(&amp;m_cRef) == <span class="number">0</span>)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">delete</span> <span class="keyword">this</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> m_cRef;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="引用计数规则"><a href="#引用计数规则" class="headerlink" title="引用计数规则"></a>引用计数规则</h3><p>另外要注意的是， <code>AddRef</code> 和 <code>Release</code> 的返回值没有什么意义，只是在程序调试中才可能会用得上。</p>
+<p>在函数中，无需对存在于局部变量中的接口指针进行引用计数。因为局部变量的生命期同函数的生命期是一样的，因此也将包含在调用者的生命期内。但当从某个全局变量或向某个全局变量复制一个指针时，则需要对此指针进行引用计数，这是因为全局变量可以从任何函数中的任意地方被释放掉。</p>
+<ol>
+<li><p>输出参数规则</p>
+<p> 输出参数指的是给函数的调用者传回一个值的函数参数。如：</p>
+ <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">HRESULT <span class="title">QueryInterface</span><span class="params">(<span class="keyword">const</span> IID&amp;, <span class="keyword">void</span>**)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p> 任何在输出参数中（或作为返回值）返回一个新的接口指针的函数都<strong>必须</strong>对此接口指针调用 <code>AddRef</code> 。</p>
+</li>
+<li><p>输入参数规则</p>
+<p> 输入参数指的是给函数传递某个值的参数，在函数体中将会使用这个值，但却不会修改它或将其返回给调用者。如：</p>
+ <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">foo</span> <span class="params">(IX* pIX)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  pIX-&gt;Fx();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p> 对传入函数的接口指针，<strong>无需</strong>调用 <code>AddRef</code> 和 <code>Release</code> ，这是因为函数的生命期嵌套在调用者的生命期内。</p>
+</li>
+<li><p>输入-输出参数规则</p>
+<p> 输入-输出参数同时具有输入参数及输出参数的特性。在函数体中可以使用输入-输出参数的值，然后可以对这些值进行修改并返回给调用者。<br> 在函数中，对于用输入-输出参数传递进来的接口指针，必须在给它赋另外一个接口指针值之前调用其 <code>Release</code> 。在函数返回之前，还必须对输出参数中所保存的接口指针调用 <code>AddRef</code> 。</p>
+</li>
+<li><p>局部变量规则</p>
+<p> 对于局部复制的接口指针，由于它们只是在函数的生命期内才存在，因此无需调用 <code>AddRef</code> 和 <code>Release</code> 。这条规则实际上是输入参数规则的直接结果。</p>
+</li>
+<li><p>全局变量规则</p>
+<p> 对于保存在全局变量中的接口指针，在将其传递给另外一个函数之前，必须调用其 <code>AddRef</code> 。由于此变量是全局性的，因此任何函数都可以通过调用其 <code>Release</code> 来终止其生命期。对于保存在成员变量中的接口指针，也应按此种方式进行处理。因为类中的任何成员函数都可以改变成员变量接口指针的状态。</p>
+</li>
+<li><p>不能确定时的规则</p>
+<p> 对于任何不能确定的情形，都应调用 <code>AddRef</code> 和 <code>Release</code> 对。</p>
+</li>
+</ol>
+<hr>
+<h2 id="HRESULT值的查找"><a href="#HRESULT值的查找" class="headerlink" title="HRESULT值的查找"></a>HRESULT值的查找</h2><p>&lt;*WINERROR.H*&gt;中包含当前系统产生的所有COM（及OLE，现在被称作ActiveX）状态代码。  </p>
+<p>但是，若某个HRESULT值具有FACILITY_WIN32设备代码，那么我们将会发现它并不在HRESULT值列表中。通常它是一个被映射成HRESULT值的Win32错误代码。为查明其含义，可查找低16位与之相同的Win32错误代码。<br>如：0x80070103，其中7就是设备代码FACILITY_WIN32。当在&lt;*WINERROR.H*&gt;中查找时，将会发现0x80070103并没有被列在HRESULT值中。为查明其含义，可将低16为从十六进制数转换成十进制数259，然后我们可以在Win32错误代码列表中找到它。</p>
+<h3 id="使用FormatMessage函数显示标准错误信息"><a href="#使用FormatMessage函数显示标准错误信息" class="headerlink" title="使用FormatMessage函数显示标准错误信息"></a>使用FormatMessage函数显示标准错误信息</h3><p>为了显示标准COM（以及ActiveX和Win32，其中ActiveX的前身为OLE）错误消息，我们可以使用Win32 API中的 <code>FormatMessage</code> 函数：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">ErrorMessage</span><span class="params">(LPCTSTR str, HRESULT hr)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">void</span>* pMsgBuf;</span><br><span class="line">    ::FormatMessage(</span><br><span class="line">        FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM,</span><br><span class="line">        <span class="literal">NULL</span>,</span><br><span class="line">        Hr,</span><br><span class="line">        MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),</span><br><span class="line">        (LPTSTR)&amp;pMsgBuf,</span><br><span class="line">        <span class="number">0</span>,</span><br><span class="line">        <span class="literal">NULL</span></span><br><span class="line">    );</span><br><span class="line">    <span class="comment">// Display the string.</span></span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;str&lt;&lt;<span class="string">&quot;\r\n&quot;</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="string">&quot;Error(&quot;</span>&lt;&lt;hex&lt;&lt;hr&lt;&lt;<span class="string">&quot;): &quot;</span></span><br><span class="line">        &lt;&lt;(LPTSTR)pMsgBuf&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="comment">// Free the buffer.</span></span><br><span class="line">    LocalFree(pMsgBuf);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="HRESULT值的使用"><a href="#HRESULT值的使用" class="headerlink" title="HRESULT值的使用"></a>HRESULT值的使用</h2><p>一个函数在各种情况下返回的状态代码通常包含多个成功代码及多个失败代码。<br>一般不能直接将HRESULT值同某个成功代码（如S_OK）进行比较，以决定某个函数是否成功，也不能直接将它同某个失败代码（如E_FAILED）进行比较，以决定函数调用是否失败。因此下面的代码是有问题的：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">HRESULT hr = CoCreateInstance(...);</span><br><span class="line"><span class="keyword">if</span> (hr == E_FAILED) <span class="comment">// Don&#x27;t do this!</span></span><br><span class="line">  <span class="keyword">return</span>;</span><br><span class="line">hr = pI-&gt;QueryInterface(...);</span><br><span class="line"><span class="keyword">if</span> (hr == S_OK) <span class="comment">// Don&#x27;t do this!</span></span><br><span class="line">&#123;</span><br><span class="line">  pIX-&gt;Fx();</span><br><span class="line">  pIX-&gt;Release();</span><br><span class="line">&#125;</span><br><span class="line">pI-&gt;Release;</span><br></pre></td></tr></table></figure>
+
+<p>为纠正上述代码中的错误，可以不将HRESULT值同S_OK或E_FAILED值直接进行比较，而使用SUCCEEDED及FAILED宏。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">HRESULT hr = CoCreateInstance(...);</span><br><span class="line"><span class="keyword">if</span> (FAILED(hr))</span><br><span class="line">  <span class="keyword">return</span>;</span><br><span class="line">hr = pI-&gt;QueryInterface(...);</span><br><span class="line"><span class="keyword">if</span> (SUCCEEDED(hr))</span><br><span class="line">&#123;</span><br><span class="line">  pIX-&gt;Fx();</span><br><span class="line">  pIX-&gt;Release();</span><br><span class="line">&#125;</span><br><span class="line">pI-&gt;Release;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="HRESULT用户自己代码的定义"><a href="#HRESULT用户自己代码的定义" class="headerlink" title="HRESULT用户自己代码的定义"></a>HRESULT用户自己代码的定义</h2><h3 id="定义HRESULT的规则"><a href="#定义HRESULT的规则" class="headerlink" title="定义HRESULT的规则"></a>定义HRESULT的规则</h3><p>下面给出关于定义自己的 <code>HRESULT</code> 的一些一般性规则：</p>
+<ul>
+<li>不要将 <code>0x0000</code> 及 <code>0x01FF</code> 范围内的值作为返回代码。这些值是为COM所定义的 <code>FACILITY_ITF</code> 代码而保留的。只有遵循这一股则，才不致使用户自己定义的代码同COM所定义的代码相混淆。</li>
+<li>不要传播 <code>FACILITY_ITF</code> 错误代码。</li>
+<li>尽可能地使用通用的COM成功及失败代码。</li>
+<li>避免定义自己的 <code>HRESULT</code> ，而可以在函数中使用一个输出参数。</li>
+</ul>
+<h3 id="使用MAKE-HRESULT自定义HRESULT值"><a href="#使用MAKE-HRESULT自定义HRESULT值" class="headerlink" title="使用MAKE_HRESULT自定义HRESULT值"></a>使用MAKE_HRESULT自定义HRESULT值</h3><p>使用 <code>MAKE_HRESULT</code> 宏来定义一个 <code>HRESULT</code> 值：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, <span class="number">100</span>);</span><br><span class="line">MAKE_HRESULT(SEVERITY_SUCCESS, FACILITY_ITF, <span class="number">101</span>);</span><br></pre></td></tr></table></figure>
+
+<p>对于自己定义的返回代码的命名，有一个约定是在其名称前面加上组件或接口的名称。如：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">AIRPLANE_E_LANDINGWITHGEARUP</span><br><span class="line">HELICOPTER_S_ROTORRPMGREEN</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="GUID的声明和定义"><a href="#GUID的声明和定义" class="headerlink" title="GUID的声明和定义"></a>GUID的声明和定义</h2><p>在&lt;*IFace.h*&gt;中声明 <code>IID_IX</code> ，在&lt;*Guids.cpp*&gt;中定义 <code>IID_IX</code> ：</p>
+<p>为了方便，可以在&lt;*IFace.h*&gt;中使用 <code>DEFINE_GUID</code> 宏来声明，可直接使用工具<em>GuidGen.exe</em>来生成，选择第二种格式：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// &#123;F03AC6A1-755A-4fc2-A845-FAAAF1DEA1E1&#125;</span></span><br><span class="line">DEFINE_GUID(&lt;&lt;name&gt;&gt;,</span><br><span class="line"><span class="number">0xf03ac6a1</span>, <span class="number">0x755a</span>, <span class="number">0x4fc2</span>, <span class="number">0xa8</span>, <span class="number">0x45</span>, <span class="number">0xfa</span>, <span class="number">0xaa</span>, <span class="number">0xf1</span>, <span class="number">0xde</span>, <span class="number">0xa1</span>, <span class="number">0xe1</span>);</span><br><span class="line"><span class="comment">// 用IID_IX替换&lt;&lt;name&gt;&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>而在&lt;*Guids.cpp*&gt;中只需包含如下代码即可：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ObjBase.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;InitGuid.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;IFace.h&quot;</span></span></span><br></pre></td></tr></table></figure>
+
+<p>在组件实现文件&lt;*Cmpnt.cpp*&gt;中包含如下代码：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ObjBase.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&quot;IFace.h&quot;</span></span></span><br></pre></td></tr></table></figure>
+
+<p>另外在客户端也要导入&lt;*IFace.h*&gt;和&lt;*Guids.cpp*&gt;文件</p>
+<hr>
+<hr>
+<h2 id="Windows注册表明细"><a href="#Windows注册表明细" class="headerlink" title="Windows注册表明细"></a>Windows注册表明细</h2><p>组件用<em>CLSID</em>作为索引在Windows的注册表中发布DLL文件名称。 <code>CoCreateInstance</code> 用<em>CLSID</em>作为关键字在注册表中查找此文件名称。</p>
+<blockquote>
+<p>COM只使用了注册表的一个分支：<em>HKEY_CLASSES_ROOT</em>。在此键之下，可以看到有一个<em>CLSID</em>键。在<em>CLSID</em>键之下列有系统中安装的所有组件的<em>CLSID</em>。对于每一个<em>CLSID</em>键，我们现在关心的只是它的一个子键 <code>InprocServer32</code> ，此子键的默认值是组件的DLL文件名称。</p>
+</blockquote>
+<ul>
+<li><p><strong>其他细节</strong>：</p>
+<p>在<em>HKEY_CLASSES_ROOT</em>的开头，列出的将是各种应用程序所注册的文件扩展名。在扩展名之后，可以看到许多其他的名字。此类名字的大多数被称作<em>ProgID</em>，表示是程序定义的标识符。某些名称表示的不是<em>ProgID</em>而是一些特殊的键，如<em>CLSID</em>键。这些键可以将一个<em>GUID</em>映射为其他一些信息，如文件名称。如下所列均为一些特殊的键。</p>
+<ul>
+<li><strong>APPID</strong>——此键下的子键的作用是将某个<em>APPID</em>（应用ID）映射成某个远程服务器名称。分布式COM（DCOM）将用到此键。</li>
+<li><strong>组件类别</strong>——注册表的这一分支可以将<em>CATID</em>（组件类别ID）映射成某个特定的组件类别。</li>
+<li><strong>Interface</strong>——此键用于将<em>IID</em>映射成与某个接口相关的信息。这些信息主要用于在跨越进程边界使用接口时的情况。</li>
+<li><strong>Licenses</strong>——<em>Licenses</em>保存的是授权使用COM组件的一些许可信息。</li>
+<li><strong>TypeLib</strong>——类型库所保存的是关于接口成员函数所用参数的信息，另外还有其他一些信息。此键可以将一个<em>LIBID</em>映射成存储类型库的文件名称。</li>
+</ul>
+</li>
+<li><p><strong>ProgID</strong>：</p>
+<p>所谓<em>ProgID</em>指的是程序员给某个<em>CLSID</em>指定的一个友好的名称。<br>根据约定，<em>ProgID</em>具有如下的格式：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;Program&gt;.&lt;Component&gt;.&lt;Version&gt;</span><br></pre></td></tr></table></figure>
+
+<p>另外组件还有一个与版本号无关的<em>ProgID</em>，此<em>ProgID</em>被映射成所安装的最新版本的组件。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;Program&gt;.&lt;Component&gt;</span><br></pre></td></tr></table></figure>
+
+<p>从<em>ProgID</em>到<em>CLSID</em>的转换：COM库为此提供了两个函数 <code>CLSIDFromProgID</code> 和 <code>ProgIDFromCLSID</code> ，以完成所需的注册表处理。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">CLSID clsid;</span><br><span class="line">CLSIDFromProgID(L”Helpcopter.TralRotor”, &amp;clsid);</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<hr>
+<h2 id="组件自注册"><a href="#组件自注册" class="headerlink" title="组件自注册"></a>组件自注册</h2><p>从DLL中引出如下两个函数：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">STDAPI <span class="title">DllRegisterServer</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function">STDAPI <span class="title">DllUnregisterServer</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>其中， <code>STDAPI</code> 在&lt;*ObjBase.h*&gt;中被定义如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> STDAPI EXTERN_C HRESULT STDAPICALLTYPE</span></span><br></pre></td></tr></table></figure>
+
+<p>展开后它将是：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">extern</span> “C” HRESULT __stdcall</span><br></pre></td></tr></table></figure>
+
+<p>只需用 <code>LoadLibrary</code> 装载相应的DLL，然后用 <code>GetProcAddress</code> 获取此函数的地址，再调用 <code>DllRegisterServer</code> 函数即可。</p>
+<blockquote>
+<p><code>DllRegisterServer</code> 的实现实际上是通过直接调用注册表函数来完成的。为注册某个组件或注销某个组件的注册，只需要用到其中的6个函数：</p>
+<ul>
+<li>RegOpenKeyEx</li>
+<li>RegCreateKeyEx</li>
+<li>RegSetValueEx</li>
+<li>RegEnumKeyEx</li>
+<li>RegDeleteKey</li>
+<li>RegCloseKey</li>
+</ul>
+<p>使用这些函数，需要在源文件中包含&lt;*WinReg.h*&gt;或&lt;*Windows.h*&gt;头文件，并链接<em>AdvApi32.lib</em>。</p>
+</blockquote>
+<hr>
+<h2 id="COM库函数"><a href="#COM库函数" class="headerlink" title="COM库函数"></a>COM库函数</h2><p>在使用COM库中的其他函数之前，进程必须先调用 <code>CoInitialize</code> 来初始化COM库。当进程不再需要使用COM库函数时，必须调用 <code>CoUninitialize</code> 。这两个函数的原型定义如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">HRESULT <span class="title">CoInitialize</span><span class="params">(<span class="keyword">void</span> reserved)</span></span>;  <span class="comment">//Argument must be NULL</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">CoUninitialize</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>OLE是建立在COM基础之上的，它增加了对类型库、剪贴板、拖放、ActiveX文档、自动化以及ActiveX控件的支持。在需要使用这些特性是，我们应调用 <code>OleInitialize</code> 及 <code>OleUninitialize</code> 。</p>
+<hr>
+<h2 id="组件中内存管理"><a href="#组件中内存管理" class="headerlink" title="组件中内存管理"></a>组件中内存管理</h2><p>我们可以通过一个接口来使用任务内存分配器，在这种情况下，此接口为 <code>IMalloc</code> ，它可以由 <code>CoGetMalloc</code> 返回。为分配一块内存，我们可以使用 <code>IMalloc::Alloc</code> ；而由 <code>IMalloc::Alloc</code> 所分配的内存的释放操作可以由 <code>IMalloc::Free</code> 完成。但大多数情况下，调用 <code>CoGetMalloc</code> 来获取接口指针，然后使用此指针来调用某个函数，再施放此指针是一个比较繁琐的过程。为此，COM库实现了一些方便的辅助函数，如 <code>CoTaskMemAlloc</code> 和 <code>CoTaskMemFree</code> ：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span>* <span class="title">CoTaskMemAlloc</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    ULONG cb    <span class="comment">// Size in bytes of block to be allocated</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">CoTaskMemFree</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">void</span>* pv    <span class="comment">//Pointer to memory block to be freed</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="将字符串转换成GUID"><a href="#将字符串转换成GUID" class="headerlink" title="将字符串转换成GUID"></a>将字符串转换成GUID</h2><p><code>StringFromGUID2</code> 可以将某个<em>GUID</em>转换成一个字符串：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">wchar_t</span> szCLSID[<span class="number">39</span>];</span><br><span class="line"><span class="keyword">int</span> r = ::StringFromGUID2(CLSID_Component1, szCLSID, <span class="number">39</span>);</span><br></pre></td></tr></table></figure>
+
+<p>传给 <code>StringFromGUID2</code> 的参数是一个<em>Unicode</em>串。在非<em>Unicode</em>的系统中，需要将结果进一步转换为单字节字符（<em>char</em>）。为此可以使用<em>ANSI</em>的 <code>wcstombs</code> 函数，如下所示：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> _UNICODE</span></span><br><span class="line"><span class="comment">// Convert from widechar to non-wide….</span></span><br><span class="line"><span class="keyword">char</span> szCLSID_single[<span class="number">39</span>];</span><br><span class="line">wcstombs(szCLSID_single, szCLSID, <span class="number">39</span>);</span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br></pre></td></tr></table></figure>
+
+<p>其他一些可以完成类似工作的函数如下表所列。</p>
+<table>
+<thead>
+<tr>
+<th>函数</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>StringFromCLSID</td>
+<td>将CLSID转换成文本串</td>
+</tr>
+<tr>
+<td>StringFromIID</td>
+<td>将IID转换成文本串</td>
+</tr>
+<tr>
+<td>StringFromGUID2</td>
+<td>将CLSID转换成文本串。此串将被存放在调用者所分配的缓冲区中</td>
+</tr>
+<tr>
+<td>CLSIDFromString</td>
+<td>将一个文本串转换成CLSID</td>
+</tr>
+<tr>
+<td>IIDFromString</td>
+<td>讲一个文本串转换成IID</td>
+</tr>
+</tbody></table>
+<p>上表所列的某些函数需要用到任务内存分配器：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">wchar_t</span>* <span class="built_in">string</span></span><br><span class="line"><span class="comment">// Get String from CLSID</span></span><br><span class="line">::StringFromCLSID(CLSID_Component1, &amp;<span class="built_in">string</span>);</span><br><span class="line"><span class="comment">// Use string</span></span><br><span class="line">︙</span><br><span class="line"><span class="comment">// Free string</span></span><br><span class="line">::CoTaskMemFree(<span class="built_in">string</span>);</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="类厂"><a href="#类厂" class="headerlink" title="类厂"></a>类厂</h2><h3 id="CoCreateInstance"><a href="#CoCreateInstance" class="headerlink" title="CoCreateInstance"></a>CoCreateInstance</h3><p><code>CoCreateInstance</code> 的声明如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">HRESULT __stdcall <span class="title">CoCreateInstance</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">const</span> CLSID&amp; clsid,</span></span></span><br><span class="line"><span class="function"><span class="params">    IUnknown* pIUnknownOuter,   <span class="comment">// Outer Component</span></span></span></span><br><span class="line"><span class="function"><span class="params">    DWORD dwClsContext,         <span class="comment">// Server context</span></span></span></span><br><span class="line"><span class="function"><span class="params">    Const IID&amp; iid,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">void</span>** ppv</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p><code>CoCreateInstance</code> 的用法：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Create Component.</span></span><br><span class="line">IX* pIX = <span class="literal">NULL</span>;</span><br><span class="line">HRESULT hr = ::CoCreateInstance(</span><br><span class="line">    CLSID_Component1,</span><br><span class="line">    <span class="literal">NULL</span>,</span><br><span class="line">    CLSCTX_INPROC_SERVER,</span><br><span class="line">    IID_IX,</span><br><span class="line">    (<span class="keyword">void</span>**)&amp;pIX</span><br><span class="line">);</span><br><span class="line">If (SUCCEEDED(hr))</span><br><span class="line">&#123;</span><br><span class="line">    pIX-&gt;Fx();</span><br><span class="line">    pIX-&gt;Release();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="类环境"><a href="#类环境" class="headerlink" title="类环境"></a>类环境</h3><p><code>CoCreateInstance</code> 的第三个参数 <code>dwClsContext</code> 可以控制所创建的组件是在与客户相同的进程中运行，还是在不同的进程中运行，或者是在另外一台机器上运行。此参数的值可以是如下所列各值的组合。</p>
+<ul>
+<li><strong>CLSCTX_INPROC_SERVER</strong><br>  客户希望创建在同一进程中运行的组件。为能够同客户在同一进程中运行，组件必须是在DLL中实现的。</li>
+<li><strong>CLSCTX_INPROC_HANDLER</strong><br>  客户希望创建进程内控制器。一个进程内控制器实际上是一个只实现了某个组件的一部分的进程内组件。该组件的其他部分将由本地或远程服务器上的某个进程外组件实现。</li>
+<li><strong>CLSCTX_LOCAL_SERVER</strong><br>  客户希望创建一个在同一台机器上的另外一个进程中运行的组件。本地服务程序是有EXE实现的。</li>
+<li><strong>CLSCTX_REMOTE_SERVER</strong><br>  客户希望创建一个在远程机器上运行的组件。此标志需要分布式COM的支持。</li>
+</ul>
+<h3 id="CoGetClassObject"><a href="#CoGetClassObject" class="headerlink" title="CoGetClassObject"></a>CoGetClassObject</h3><p><code>CoCreateInstance</code> 实际上并没有直接创建COM组件，而是创建了一个被称作是类厂的组件。而所需的组件正是由此类厂创建的。类厂组件的唯一功能就是创建其他的组件。更精确地讲，某个特定的类厂将创建只同某个特定的<em>CLSID</em>相对应的组件。客户可以通过类厂所支持的接口来对类厂创建组件的过程加以控制。创建组件的标准接口是<code>IClassFactory</code> ，用 <code>CoCreateInstance</code> 创建的组件实际上是通过 <code>IClassFactory</code> 接口创建的。</p>
+<p><code>CoCreateInstance</code> 将接受一个<em>CLSID</em>作为参数并返回指向所创建的组件中某个接口的指针。为创建同某个<em>CLSID</em>相对应的类厂，需要一个与 <code>CoCreateInstance</code> 等价的、也可接收一个<em>CLSID</em>作为参数并返回相应类厂中某个接口指针的函数。这个函数就是COM库中的 <code>CoGetClassObject</code> 。</p>
+<p>此函数的声明如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">HRESULT __stdcall <span class="title">CoGetClassObject</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">const</span> CLSID&amp; clsid,</span></span></span><br><span class="line"><span class="function"><span class="params">    DWORD dwClsContext,</span></span></span><br><span class="line"><span class="function"><span class="params">    COSERVERINFO* pServerInfo,    <span class="comment">//Reserved for DCOM</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">const</span> IID&amp; iid,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">void</span>** ppv</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p><code>CoGetClassObject</code> 返回的是指向所需组件的类厂而不是指向组件本身的一个指针。客户可以用 <code>CoGetClassObject</code> 所返回的指针来创建所需的组件。这个指针通常是 <code>IClassFactory</code> 指针。</p>
+<h3 id="IClssFactory"><a href="#IClssFactory" class="headerlink" title="IClssFactory"></a>IClssFactory</h3><p>类厂所支持的用于创建组件的标准接口是 <code>IClassFactory</code> 。大多数组件均可使用 <code>IClassFactory</code> 接口来创建。此接口的声明如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">interface IClassFatory : IUnknown</span><br><span class="line">&#123;</span><br><span class="line">    <span class="function">HRESULT __stdcall <span class="title">CreateInstance</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">        IUnknown* pUnknownOuter,</span></span></span><br><span class="line"><span class="function"><span class="params">        <span class="keyword">const</span> IID&amp; iid,</span></span></span><br><span class="line"><span class="function"><span class="params">        <span class="keyword">void</span>** ppv</span></span></span><br><span class="line"><span class="function"><span class="params">    )</span></span>;</span><br><span class="line">    <span class="function">HRESULT __stdcall <span class="title">LockServer</span><span class="params">(BOOL bLock)</span></span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><code>IClassFactory</code> 有两个成员函数。第一个成员函数为 <code>CreateInstance</code> ，第二个成员函数为 <code>LockServer</code> 。</p>
+<p><code>IClassFactory::CreateInstace</code> 的第一参数 <code>pUnknownOuter</code> 为只想某个 <code>IUnknown</code> 接口的指针，同传给 <code>CoCreateInstance</code> 的 <code>IUnknown</code> 指针是相同的，用于聚合组件。其余两个参数同传给 <code>QueryInterface</code> 的参数是相同的。使用这两个参数，客户可以在创建组件的同时请求此组件中某个接口的指针。这样可以为客户省去一次函数的调用。当组件在远程机器上运行时，它还可以省去一次来回网络传输的开销。</p>
+<h3 id="CoCreateInstance与CoGetClassObject的比较"><a href="#CoCreateInstance与CoGetClassObject的比较" class="headerlink" title="CoCreateInstance与CoGetClassObject的比较"></a>CoCreateInstance与CoGetClassObject的比较</h3><p>在每次创建组件时，先创建相应的类厂，然后用所获取的 <code>IClassFactory</code> 指针来创建所需的组件，这个过程显然比直接调用 <code>CoCreateInstance</code> 来创建所需的组件要复杂一些。这也正是为什么大多数组件都使用 <code>CoCreateInstance</code> 的原因。但前面提到过， <code>CoCreateInstance</code> 实际上是通过 <code>CoGetClassObject</code> 实现的。下面的代码表示了如何用 <code>CoGetClassObject</code> 来实现 <code>CoCreateInstance</code> ：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">HRESULT <span class="title">CoCreateInstance</span><span class="params">(<span class="keyword">const</span> CLSID&amp; clsid, IUnknown* pUnknownOuter, DOWRD dwClsContext, <span class="keyword">const</span> IID&amp; iid, <span class="keyword">void</span>** ppv)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//Set the out parametet to NULL.</span></span><br><span class="line">    *ppv = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="comment">//Create the class factory and get an IClassFactory interface pointer.</span></span><br><span class="line">    IClassFactory* pIFactory = <span class="literal">NULL</span>;</span><br><span class="line">    HRESULT hr = CoGetClassObject(</span><br><span class="line">        clsid,</span><br><span class="line">        dwClsContext,</span><br><span class="line">        <span class="literal">NULL</span>,</span><br><span class="line">        IID_IClassFactory,</span><br><span class="line">        (<span class="keyword">void</span>**)&amp;pIFactory</span><br><span class="line">    );</span><br><span class="line">    <span class="keyword">if</span> (SUCCEEDED(hr))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//Create the component.</span></span><br><span class="line">        hr = pIFactory-&gt;CreateInstance(pUnknownOuter, iid, ppv);</span><br><span class="line">        <span class="comment">//Release the class factory.</span></span><br><span class="line">        pIFactory-&gt;Release();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> hr;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>大多数情况下，组件的创建均可使用 <code>CoCreateInstance</code> 而不使用 <code>CoGetClassObject</code> 。但是在如下两种情况下应使用 <code>CoGetClassObject</code> 而不应使用 <code>CoCreateInstance</code> 。</p>
+<blockquote>
+<p>第一种情况是，若想用不同于 <code>IClassFactory</code> 的某个创建接口来创建组件，则必须使用 <code>CoGetClassObject</code> 。因此如果想使用 <code>IClassFactory2</code> 来创建组件的话，就应使用 <code>CoGetClassObject</code> 。</p>
+<blockquote>
+<p><strong>IClassFactory2</strong><br>除了 <code>IClassFactory</code> 之外，Microsoft还定义了另外一个用于创建组件的接口 <code>IClassFactory2</code> 。此接口在 <code>IClassFactory</code> 的基础上增加了许可或权限功能。在类厂创建所需的组件之前，客户必须通过 <code>IClassFactory2</code> 给类厂提供正确的密钥或许可。通过使用 <code>IClassFactory2</code> ，类厂可以保证客户只能获得它能合法访问的组件，并具有对此组件的访问授权。  </p>
+</blockquote>
+<p>第二种情况是，若需创建同一组件的多个实例，那么使用 <code>CoGetClassObject</code> 可以获得更高的效率。因为这时只需创建相应的类厂一次，而 <code>CoCreateInstance</code> 需为每一个实例分别创建并释放相应的类厂。</p>
+<p>另外 <code>CoGetClassObject</code> 使得客户可以对组件的创建过程进行更多的控制。</p>
+</blockquote>
+<h3 id="类厂的若干特性"><a href="#类厂的若干特性" class="headerlink" title="类厂的若干特性"></a>类厂的若干特性</h3><ul>
+<li>首先，类厂的一个实例将只能创建同某个<em>CLSID</em>相对应的组件。这一点从 <code>CoGetClassObject</code> 将接收一个<em>CLSID</em>而 <code>IClassFactory::CreateInstance</code> 却不接受此参数可以看出来。</li>
+<li>其次，与某个特定<em>CLSID</em>相对应的类厂将是由实现组件的开发人员实现的。大多数情况下，类厂组件包含在与它所创建的组件相同的DLL中。</li>
+</ul>
+<h3 id="DllGetClassObject的使用"><a href="#DllGetClassObject的使用" class="headerlink" title="DllGetClassObject的使用"></a>DllGetClassObject的使用</h3><p><code>CallCreateInstance</code> 调用了DLL中的 <code>CreateInstance</code> 来创建所需的组件，类似地 <code>CoGetClassObject</code> 需要DLL中的一个特定函数来创建组件的类厂。此函数的名称为 <code>DllGetClassObject</code> 。 <code>CoGetClassObject</code> 将调用此函数，由它创建类厂。</p>
+<p><code>DllGetClassObject</code> 的声明如下：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">STDAPI <span class="title">DllGetClassObject</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">const</span> CLSID&amp; clsid,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">const</span> IID&amp; iid,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">void</span>** ppv</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>第一个参数为类厂将要创建的组件的<em>CLSID</em>；第二个参数为类厂中客户希望得到的接口ID。而接口的指针将被返回在最后一个参数中。</p>
+<p>将<em>CLSID</em>传给 <code>DllGetClassObject</code> 是非常重要的，这使得一个DLL可以支持任意多个组件，因为 <code>DllGetClassObject</code> 可以用<em>CLSID</em>来选择合适的类厂。</p>
+<h3 id="DLL的卸载"><a href="#DLL的卸载" class="headerlink" title="DLL的卸载"></a>DLL的卸载</h3><h4 id="DllCanUnloadNow的使用"><a href="#DllCanUnloadNow的使用" class="headerlink" title="DllCanUnloadNow的使用"></a>DllCanUnloadNow的使用</h4><p>客户调用 <code>CoUninitialize</code> 组件函数来卸载组件，该函数会调用 <code>DllCanUnloadNow</code> 来询问DLL是否可以被卸载掉。DLL为了确定它是否仍在提供对组件的服务，将维护一个关于组件的计数值，通过 <code>IClassFactory::CreateInstance</code> 或组件的构造函数可以将该值增大，而组件的析构函数可以将此值减小。当该值为零时， <code>DllCanUnloadNow</code> 将给出肯定的回答。</p>
+<h4 id="LockServer"><a href="#LockServer" class="headerlink" title="LockServer"></a>LockServer</h4><p>上述的方法统计的只是DLL提供的组件，而不包括DLL提供的那些类厂。但这些类厂可能一直是被用着的。因此在统计组件时，同时也统计类厂将更为合理。对于进程内组件服务程序，对类厂进行统计是可以的。</p>
+<hr>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2017/04/15/%E5%BC%80%E5%8F%91/C++/Windows%20API/" >
+  Windows API
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2017/04/15/%E5%BC%80%E5%8F%91/C++/Windows%20API/"><span class="article-date">
+  2017-04-15
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/C/">C++</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Win32-%E5%BC%80%E5%8F%91/" rel="tag">Win32 开发</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><blockquote>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/494734d4b14e852458fb5790.html">Windows_API大全</a></li>
+<li><a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/7900f1eb6294dd88d0d26bd6.html">Win32 API 函数大全使用详解</a></li>
+<li><a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/7d0ad310a216147917112833.html">Windows_API大全</a></li>
+<li><a target="_blank" rel="noopener" href="http://blog.csdn.net/tcjiaan?viewmode=contents">Win32 API 编程</a></li>
+<li><a target="_blank" rel="noopener" href="http://blog.sina.com.cn/s/blog_67dd642401017xl9.html">WS,窗口样式</a></li>
+<li><a target="_blank" rel="noopener" href="https://baijia.baidu.com/s?old_id=353236">控件自绘</a></li>
+</ul>
+</blockquote>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2017/03/24/%E5%BC%80%E5%8F%91/C++/C++%E7%9F%A5%E8%AF%86%E7%82%B9/" >
+  C++ 知识点
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2017/03/24/%E5%BC%80%E5%8F%91/C++/C++%E7%9F%A5%E8%AF%86%E7%82%B9/"><span class="article-date">
+  2017-03-24
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/C/">C++</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <h2 id="pragma"><a href="#pragma" class="headerlink" title="#pragma"></a>#pragma</h2><h3 id="pragma-message"><a href="#pragma-message" class="headerlink" title="#pragma message"></a>#pragma message</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> message(<span class="meta-string">&quot;消息文本&quot;</span>)</span></span><br></pre></td></tr></table></figure>
+
+<p>当编译器遇到这条指令时就在编译输出窗口中将消息文本打印出来。</p>
+<h3 id="pragma-once"><a href="#pragma-once" class="headerlink" title="#pragma once"></a>#pragma once</h3><h4 id="pragma-once-与-ifndef-一起使用"><a href="#pragma-once-与-ifndef-一起使用" class="headerlink" title="#pragma once 与 #ifndef 一起使用"></a>#pragma once 与 #ifndef 一起使用</h4><p><code>#pragma once</code>由编译器提供保证：同一个文件不会被编译多次。注意这里所说的“同一个文件”是指物理上的一个文件，而不是指内容相同的两个文件；</p>
+<p><code>#ifndef</code>的方式依赖于宏名字不能冲突，这不光可以保证同一个文件不会被包含多次，也能保证内容完全相同的两个文件不会被不小心同时包含。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> TEST_H</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> TEST_H</span></span><br><span class="line"><span class="comment">//code here</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">//TEST_H</span></span></span><br></pre></td></tr></table></figure>
+
+<h3 id="pragma-data-seg"><a href="#pragma-data-seg" class="headerlink" title="#pragma data_seg"></a>#pragma data_seg</h3><p><code>#pragma data_seg</code>预处理指令用于设置共享数据段</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> data_seg(<span class="meta-string">&quot;MySec&quot;</span>)       <span class="comment">//起名的时候最多为8个字符，否则取前8个字符</span></span></span><br><span class="line"><span class="comment">// 定义变量</span></span><br><span class="line">HWND g_hwnd=<span class="literal">NULL</span>;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> data_seg()</span></span><br><span class="line"><span class="comment">// 设置链接器，使MySec节拥有属性为 RWS (READ WRITE SHARED)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> comment(linker,<span class="meta-string">&quot;/section:MySec,RWS&quot;</span>)</span></span><br></pre></td></tr></table></figure>
+
+<p>共享数据必须初始化，否则微软编译器会把没有初始化的数据放到.BSS段中，从而导致多个进程之间的共享行为失败。</p>
+<p>或者在<code>.def</code>(模块定义)文件中</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">LIBRARY <span class="string">&quot;Hook&quot;</span></span><br><span class="line">EXPORTS</span><br><span class="line">SetHook @<span class="number">2</span></span><br><span class="line">SECTIONS</span><br><span class="line">MySec READ WRITE SHARED</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="内存泄露检测"><a href="#内存泄露检测" class="headerlink" title="内存泄露检测"></a>内存泄露检测</h2><p>工具：<code>Visual Leak Detector</code></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//文件开始处添加</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> _CRTDBG_MAP_ALLOC</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;crtdbg.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//程序退出前添加</span></span><br><span class="line">_CrtDumpMemoryLeaks();</span><br><span class="line"><span class="comment">//_CrtSetDbgFlag ( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="常用函数ANSI版本、UNICODE版本及兼容版本"><a href="#常用函数ANSI版本、UNICODE版本及兼容版本" class="headerlink" title="常用函数ANSI版本、UNICODE版本及兼容版本"></a>常用函数ANSI版本、UNICODE版本及兼容版本</h2><p><a target="_blank" rel="noopener" href="https://msdn.microsoft.com/zh-cn/library/tsbaswba.aspx">MSDN Documents</a> / <a target="_blank" rel="noopener" href="http://blog.csdn.net/lightyearwp/article/details/4204499">CSDN:TCHAR相关函数</a></p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://msdn.microsoft.com/zh-cn/library/ms235631.aspx">如何：在各种字符串类型之间进行转换</a></p>
+</blockquote>
+<p>C++支持两种字符串，即常规的<code>ANSI</code>编码（使用<code>&quot;&quot;</code>包裹）和<code>Unicode</code>编码（使用<code>L&quot;&quot;</code>包裹），微软将这两套字符集及其操作进行了统一，通过条件编译（通过<code>_UNICODE</code>和<code>UNICODE</code>宏）控制实际使用的字符集，这样就有了<code>_T(&quot;&quot;)</code>这样的字符串，对应的就有了<code>_tcslen</code>这样的函数。</p>
+<table>
+<thead>
+<tr>
+<th align="center">字符类型</th>
+<th align="center">char</th>
+<th align="center">wchar_t</th>
+<th align="center">TCHAR</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">获取字符串长度</td>
+<td align="center">strlen</td>
+<td align="center">wcslen</td>
+<td align="center">_tcslen</td>
+</tr>
+<tr>
+<td align="center">字符串拷贝</td>
+<td align="center">strcpy</td>
+<td align="center">wcscpy</td>
+<td align="center">_tcscpy</td>
+</tr>
+<tr>
+<td align="center">字符串衔接</td>
+<td align="center">strcat</td>
+<td align="center">wcscat</td>
+<td align="center">_tcscat</td>
+</tr>
+<tr>
+<td align="center">字符串赋值</td>
+<td align="center">sprintf</td>
+<td align="center">wsprintf</td>
+<td align="center">_stprintf</td>
+</tr>
+<tr>
+<td align="center">查找子字符串</td>
+<td align="center">strstr</td>
+<td align="center">wcsstr</td>
+<td align="center">_tcsstr</td>
+</tr>
+<tr>
+<td align="center">不分大小写查找</td>
+<td align="center">stristr</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="algorithm头文件"><a href="#algorithm头文件" class="headerlink" title="algorithm头文件"></a>algorithm头文件</h2><hr>
+<h2 id="编译相关"><a href="#编译相关" class="headerlink" title="编译相关"></a>编译相关</h2><blockquote>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.tuicool.com/articles/3AJRbm7">详解多线程MT和多线程MD的区别</a></li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="隐式加载的DLL头文件格式"><a href="#隐式加载的DLL头文件格式" class="headerlink" title="隐式加载的DLL头文件格式"></a>隐式加载的DLL头文件格式</h2><h3 id="隐式加载"><a href="#隐式加载" class="headerlink" title="隐式加载"></a>隐式加载</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//头文件</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> once</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> PROJECT_NAME_H</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PROJECT_NAME_H</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> PROJECTNAME_EXPORTS</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PROJECT_NAME_API __declspec(dllexport)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PROJECT_NAME_API __declspec(dllimport)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">//PROJECTNAME_EXPORTS</span></span></span><br><span class="line"><span class="comment">/****************************************************************/</span></span><br><span class="line"><span class="keyword">extern</span> <span class="string">&quot;C&quot;</span> <span class="function">PROJECT_NAME_API Type <span class="title">FuncName</span><span class="params">(Type a, Type b)</span></span>;</span><br><span class="line"><span class="comment">/****************************************************************/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifndef</span> PROJECTNAME_EXPORTS</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> _DEBUG</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> comment(lib, <span class="meta-string">&quot;ProjectNameD.lib&quot;</span>)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">else</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> comment(lib, <span class="meta-string">&quot;ProjectName.lib&quot;</span>)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">//_DEBUG</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">//PROJECTNAME_EXPORTS</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> <span class="comment">//PROJECT_NAME_H</span></span></span><br></pre></td></tr></table></figure>
+
+<h3 id="显示加载"><a href="#显示加载" class="headerlink" title="显示加载"></a>显示加载</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">HINSTANCE hDLL = LoadLibrary(_T(<span class="string">&quot;DllName.dll&quot;</span>));</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span><span class="comment">/*返回值类型*/</span>(*pFuncName)(<span class="comment">/*参数列表*/</span>);</span><br><span class="line">pFuncName FuncName = (pFuncName)GetProcAddress(hDLL, <span class="string">&quot;FuncName&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="DLL导出函数名"><a href="#DLL导出函数名" class="headerlink" title="DLL导出函数名"></a>DLL导出函数名</h2><h3 id="对-c文件"><a href="#对-c文件" class="headerlink" title="对.c文件"></a>对.c文件</h3><p><code>__stdcall</code>会使导出函数名字前面加一个下划线，后面加一个<code>@</code>再加上参数的字节数，比如<code>_MyFunction@4</code>的参数<code>(int iVariant)</code>就是4个字节</p>
+<p><code>__fastcall</code>与<code>__stdcall</code>类似，不过前面没有下划线，而是一个<code>@</code>，比如<code>@MyFunction@4</code></p>
+<p><code>__cdecl</code>则是始函数名。</p>
+<h3 id="对-cpp文件"><a href="#对-cpp文件" class="headerlink" title="对.cpp文件"></a>对.cpp文件</h3><p>生成的函数名比较复杂，建议使用<code>extern &quot;C&quot;</code></p>
+<p>若需要重载，可使用隐式加载的方式。</p>
+<hr>
+<h2 id="explicit"><a href="#explicit" class="headerlink" title="explicit"></a>explicit</h2><p>C++提供了关键字<code>explicit</code>，可以阻止不应该允许的经过转换构造函数进行的隐式转换的发生。<br>声明为<code>explicit</code>的构造函数不能在隐式转换中使用。<br>原则上应该在所有的构造函数前加<code>explicit</code>关键字，当你有心利用隐式转换的时候再去解除<code>explicit</code>，这样可以大大减少错误的发生。</p>
+<hr>
+<h2 id="获取当前应用程序实例句柄–HINSTANCE"><a href="#获取当前应用程序实例句柄–HINSTANCE" class="headerlink" title="获取当前应用程序实例句柄–HINSTANCE"></a>获取当前应用程序实例句柄–HINSTANCE</h2><table>
+<thead>
+<tr>
+<th align="center">平台</th>
+<th align="center">方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">MFC</td>
+<td align="center"><code>AfxGetInstanceHandle()</code></td>
+</tr>
+<tr>
+<td align="center">控制台程序</td>
+<td align="center"><code>GetConsoleWindow()</code>→<code>HWND</code>→<code>GetWindowLong()</code></td>
+</tr>
+<tr>
+<td align="center">Win32 API</td>
+<td align="center"><code>GetModuleHandle()</code></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="绘图函数集合"><a href="#绘图函数集合" class="headerlink" title="绘图函数集合"></a>绘图函数集合</h2><h3 id="在指定的矩形里写入格式化的正文"><a href="#在指定的矩形里写入格式化的正文" class="headerlink" title="在指定的矩形里写入格式化的正文"></a>在指定的矩形里写入格式化的正文</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">DrawText</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    HDC hDC,            <span class="comment">//设备描述表句柄</span></span></span></span><br><span class="line"><span class="function"><span class="params">    LPCTSTR lpString,   <span class="comment">//将要绘制的字符串</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> nCount,         <span class="comment">//字符串的长度</span></span></span></span><br><span class="line"><span class="function"><span class="params">    LPRECT lpRect,      <span class="comment">//指向矩形结构RECT的指针</span></span></span></span><br><span class="line"><span class="function"><span class="params">    UINT uFormat        <span class="comment">//正文的绘制选项</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>SetTextColor</code>函数来设置颜色</li>
+<li><code>GetTextMetrics</code></li>
+</ul>
+<h3 id="绘画一个椭圆圆弧"><a href="#绘画一个椭圆圆弧" class="headerlink" title="绘画一个椭圆圆弧"></a>绘画一个椭圆圆弧</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">Arc</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    HDC hdc,            <span class="comment">//DC的句柄</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> xLeft,          <span class="comment">//矩形的左坐标</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> yTop,           <span class="comment">//矩形上坐标</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> xRight,         <span class="comment">//矩形的右坐标</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> yBottom,        <span class="comment">//矩形的下坐标</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> XStart,         <span class="comment">//起点x坐标</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> YStart,         <span class="comment">//起点y坐标</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> XEnd,           <span class="comment">//终点x坐标</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> YEnd            <span class="comment">//终点y坐标</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>SetArcDirection</code>函数改变弧线的方向</li>
+<li><code>AD_COUNTERCLOCKWISE</code>表示逆时针方向</li>
+<li><code>AD_CLOCKWISE</code>表示顺时针方向</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">LineDDA</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> nXStart,            <span class="comment">//起点的X值</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> nYStart,            <span class="comment">//起点的Y值</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> nXEnd,              <span class="comment">//终点的X值</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> nYEnd,              <span class="comment">//点的Y值</span></span></span></span><br><span class="line"><span class="function"><span class="params">    LINEDDAPROC lpLineFunc, <span class="comment">//回调函数的地址</span></span></span></span><br><span class="line"><span class="function"><span class="params">    LPARAM lpData           <span class="comment">//用户自定义参数（这个参数会传给回调函数）</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">HPEN <span class="title">CreatePen</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> iStyle,         <span class="comment">//钢笔的样式，如虚线、实线</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> cWidth,         <span class="comment">//线条宽度</span></span></span></span><br><span class="line"><span class="function"><span class="params">    COLORREF color      <span class="comment">//线条是啥颜色的</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">HGDIOBJ WINAPI <span class="title">SelectObject</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    HDC hdc,            <span class="comment">//设备描述表的句柄</span></span></span></span><br><span class="line"><span class="function"><span class="params">    HGDIOBJ h           <span class="comment">//要放到DC中的资源的句柄</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">DeleteObject</span><span class="params">(HGDIOBJ hObject)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">PolyBezier</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    HDC hdc,</span></span></span><br><span class="line"><span class="function"><span class="params">    CONST POINT *lppt,</span></span></span><br><span class="line"><span class="function"><span class="params">    DWORD cPoints</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">PolyBezierTo</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    HDC hdc,</span></span></span><br><span class="line"><span class="function"><span class="params">    CONST POINT* lppt,</span></span></span><br><span class="line"><span class="function"><span class="params">    DWORD cCount</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<h3 id="绘制复合线条"><a href="#绘制复合线条" class="headerlink" title="绘制复合线条"></a>绘制复合线条</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">PolyPolyline</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    HDC hdc,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">const</span> POINT *lppt,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">const</span> DWORD *lpdwPolyPoints,</span></span></span><br><span class="line"><span class="function"><span class="params">    DWORD cCount</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">COLORREF <span class="title">SetDCBrushColor</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    __in HDC hdc,</span></span></span><br><span class="line"><span class="function"><span class="params">    __in COLORREF crColor</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="开启视觉效果"><a href="#开启视觉效果" class="headerlink" title="开启视觉效果"></a>开启视觉效果</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> comment(linker,<span class="meta-string">&quot;\&quot;/manifestdependency:type=&#x27;win32&#x27; \</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">name=&#x27;Microsoft.Windows.Common-Controls&#x27; version=&#x27;6.0.0.0&#x27; \</span></span></span><br><span class="line"><span class="meta"><span class="meta-string">processorArchitecture=&#x27;*&#x27; publicKeyToken=&#x27;6595b64144ccf1df&#x27; language=&#x27;*&#x27;\&quot;&quot;</span>)</span></span><br></pre></td></tr></table></figure>
+
+<p>要改变静态文本中的文本，一可以用<code>Static_SetText</code>宏，二可以用<code>SetWindowText</code>，三可以发送<code>WM_SETTEXT</code>消息</p>
+<hr>
+<h2 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a><a target="_blank" rel="noopener" href="http://blog.sina.com.cn/s/blog_6e7fed390100z0j1.html">文件操作</a></h2><ol>
+<li>C<br> fopen、fclose、fputc、fgetc、fputs、fgets、fread、fwrite、open、close、read、write</li>
+<li>C++<br> fstream::open、close、&lt;&lt;、&gt;&gt;、put、get、read、write、CreateFile、CloseHandle、ReadFile、WriteFile、GetFileTime、CreateFileMapping、MapViewOfFile、UnmapViewOfFile</li>
+</ol>
+<hr>
+<h2 id="进程操作"><a href="#进程操作" class="headerlink" title="进程操作"></a>进程操作</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">CreateProcess           <span class="comment">//创建进程</span></span><br><span class="line">TerminateProcess        <span class="comment">//结束进程</span></span><br><span class="line">GetExitCodeProcess      <span class="comment">//获取退出码</span></span><br><span class="line"></span><br><span class="line">GetExitCodeProcess(pro_info.hProcess,&amp;exitCode); <span class="comment">//获取退出码</span></span><br><span class="line">TerminateProcess(pro_info.hProcess, exitCode);</span><br><span class="line"><span class="comment">// 关闭句柄</span></span><br><span class="line">CloseHandle(pro_info.hThread);</span><br><span class="line">CloseHandle(pro_info.hProcess);</span><br><span class="line"></span><br><span class="line"><span class="function">HINSTANCE <span class="title">ShellExecute</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_opt_ HWND hwnd,</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_opt_ LPCTSTR lpOperation,</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_ LPCTSTR lpFile,</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_opt_ LPCTSTR lpParameters,</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_opt_ LPCTSTR lpDirectory,</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_ INT nShowCmd</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="线程操作"><a href="#线程操作" class="headerlink" title="线程操作"></a>线程操作</h2><blockquote>
+<ul>
+<li><a target="_blank" rel="noopener" href="http://bbs.csdn.net/topics/250047065">C++多线程学习</a></li>
+</ul>
+</blockquote>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">_beginthread        <span class="comment">//创建线程</span></span><br><span class="line">_endthread          <span class="comment">//结束线程</span></span><br><span class="line">GetExitCodeThread   <span class="comment">//获取退出码</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="内存操作"><a href="#内存操作" class="headerlink" title="内存操作"></a>内存操作</h2><p><code>ZeroMemory</code>函数可以将一段内存中的数据初始化为0。</p>
+<hr>
+<h2 id="模态对话框"><a href="#模态对话框" class="headerlink" title="模态对话框"></a>模态对话框</h2><p>创建模态对话框的函数：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">INT_PTR WINAPI <span class="title">DialogBoxParam</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_opt_ HINSTANCE hInstance,</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_ LPCTSTR lpTemplateName,</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_opt_ HWND hWndParent,</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_opt_ DLGPROC lpDialogFunc,</span></span></span><br><span class="line"><span class="function"><span class="params">    _In_ LPARAM dwInitParam</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="操作粘贴板"><a href="#操作粘贴板" class="headerlink" title="操作粘贴板"></a>操作粘贴板</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">OpenClipboard</span><span class="params">(HWND hWndNewOwner)</span></span>;              <span class="comment">//打开剪贴板</span></span><br><span class="line"><span class="function">BOOL <span class="title">EmptyClipboard</span><span class="params">()</span></span>;                              <span class="comment">//清空剪贴板</span></span><br><span class="line"><span class="function">HGLOBAL <span class="title">GlobalAlloc</span><span class="params">(UINT uFlags, SIZE_T dwBytes)</span></span>;   <span class="comment">//分配内存</span></span><br><span class="line"><span class="function">LPVOID <span class="title">GlobalLock</span><span class="params">(HGLOBAL hMem)</span></span>;                    <span class="comment">//锁定内存</span></span><br><span class="line"><span class="function">HANDLE <span class="title">SetClipboardData</span><span class="params">(UINT uFormat, HANDLE hMem)</span></span>; <span class="comment">//设置剪切板</span></span><br><span class="line"><span class="function">BOOL <span class="title">GlobalUnlock</span><span class="params">(HGLOBAL hMem)</span></span>;                    <span class="comment">//解除锁定</span></span><br><span class="line"><span class="function">BOOL <span class="title">CloseClipboard</span><span class="params">()</span></span>;                              <span class="comment">//关闭剪切板</span></span><br><span class="line"><span class="function">HANDLE <span class="title">GetClipboardData</span><span class="params">(UINT uFormat)</span></span>;              <span class="comment">//获取剪切板数据</span></span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>UINT uFormate格式说明：标准剪贴簿数据格式<br>Windows支持不同的预先定义剪贴簿格式， 这些格式在<code>WINUSER.H</code>定义成以<strong>CF</strong>为前缀的标识符。<ul>
+<li>三种能够储存在剪贴簿上的文字数据型态：<ul>
+<li><strong>CF_TEXT</strong><br>以<code>NULL</code>结尾的<code>ANSI</code>字符集字符串。它在每行末尾包含一个carriage return和linefeed字符，这是最简单的剪贴簿数据格式。</li>
+<li><strong>CF_OEMTEXT</strong><br>含有文字数据（与<strong>CF_TEXT</strong>类似）的内存块。但是它使用的是OEM字符集。</li>
+<li><strong>CF_UNICODETEXT</strong><br>含有<code>Unicode</code>文字的内存块。与<strong>CF_TEXT</strong>类似，它在每一行的末尾包含一个carriage return和linefeed字符，以及一个<code>NULL</code>字符（两个0字节）以表示数据结束。<strong>CF_UNICODETEXT</strong>只支援<strong>Windows NT</strong>。</li>
+</ul>
+</li>
+<li>两种附加的剪贴簿格式、但是它们不需要以NULL结尾，因为格式已经定义了数据的结尾。<ul>
+<li><strong>CF_SYLK</strong><br>包含Microsoft 「符号连结」数据格式的整体内存块。这种格式用在Microsoft的<strong>Multiplan</strong>、<strong>Chart</strong>和<strong>Excel</strong>程序之间交换数据，它是一种<code>ASCII</code>码格式。</li>
+<li><strong>CF_DIF</strong><br>包含数据交换格式(DIF)之数据的整体内存块。用于把数据送到VisiCalc电子表格程序中。这也是一种ASCII码格式</li>
+</ul>
+</li>
+<li>下面三种剪贴簿格式与位图有关。所谓位图就是数据位的矩形数组<ul>
+<li><strong>CF_BITMAP</strong><br>与设备相关的位图格式。位图是通过位图句柄传送给剪贴簿的。</li>
+<li><strong>CF_DIB</strong><br>定义一个设备无关位图的内存块。</li>
+<li><strong>CF_PALETTE</strong><br>调色盘句柄。</li>
+</ul>
+</li>
+<li>下面是两个<strong>metafile</strong>格式、metafile就是一个以二进制格式储存的画图命令集<ul>
+<li><strong>CF_METAFILEPICT</strong><br>以旧的metafile格式存放的「图片」。</li>
+<li><strong>CF_ENHMETAFILE</strong><br>增强型metafile（32位Windows支持的）句柄。</li>
+</ul>
+</li>
+<li>最后介绍几个混合型的剪贴簿格式：<ul>
+<li><strong>CF_PENDATA</strong><br>与Windows的笔式输入扩充功能联合使用。</li>
+<li><strong>CF_WAVE</strong><br>声音（波形）文件。</li>
+<li><strong>CF_RIFF</strong><br>使用资源交换文件格式（Resource Interchange File Format）的多媒体数据。</li>
+<li><strong>CF_HDROP</strong><br>与拖放服务相关的文件列表。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>UINT uFlags格式说明：内存属性</strong><ul>
+<li><strong>GMEM_FIXED</strong><br>分配一块固定的内存区域，不允许系统移动，这时返回值是一个指针。</li>
+<li><strong>GMEM_MOVEABLE</strong><br>分配一块可移动的内存区域，实际上内存块在物理内存中是不可移动的，这里的可移动指的是在应用程序的默认逻辑堆内可以移动。返回值是内存对象的句柄。可以通过调研<code>GlobalLock()</code>函数将一个句柄转化为一个指针，这个标志不能和<strong>GMEM_FIXED</strong>同时使用</li>
+<li><strong>GMEM_ZEROINT</strong><br>初始化内存对象为全0，如果不用这个标志，内存对象将为不确定的内容</li>
+<li><strong>GHND</strong>  </li>
+</ul>
+ <strong>GMEM_MOVEABLE</strong>和<strong>GMEM_ZEROINT</strong>块标志联合使用，即可移动同时初始化为0<ul>
+<li><strong>GPTR</strong>  </li>
+</ul>
+ <strong>GMEM_FIXED</strong>和<strong>GMEM_ZEROINT</strong>标志联合使用，即不可移动同时初始化为0</li>
+</ol>
+<hr>
+<h2 id="用const代替-define来定义常量"><a href="#用const代替-define来定义常量" class="headerlink" title="用const代替#define来定义常量"></a>用const代替#define来定义常量</h2><p>用<code>const</code>定义的常量代替<code>#define</code></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pi 3.1415926</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">float</span> pi=<span class="number">3.1415926</span></span><br></pre></td></tr></table></figure>
+
+<p>用<code>inline</code>代替<code>#define</code>来定义函数</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> max(a,b) ((a) &gt; (b) ? (a) : (b))</span></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">max</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span> </span>&#123; <span class="keyword">return</span> a &gt; b ? a : b; &#125;</span><br></pre></td></tr></table></figure>
+
+<p>有时候我们希望常量只在一个类里有效，用<code>const</code>表示或用<code>enum</code>表示<code>int</code>型</p>
+<hr>
+<h2 id="ComCtrl-h"><a href="#ComCtrl-h" class="headerlink" title="ComCtrl.h"></a>ComCtrl.h</h2><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>状态栏</td>
+<td>STATUSCLASSNAME</td>
+<td>“msctls_statusbar32”</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="LocalAlloc-GlobalAlloc"><a href="#LocalAlloc-GlobalAlloc" class="headerlink" title="LocalAlloc / GlobalAlloc"></a>LocalAlloc / GlobalAlloc</h2><table>
+<thead>
+<tr>
+<th>LocalAlloc</th>
+<th>GlobalAlloc</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>LocalAlloc</code>函数用局部内存对象的分配</td>
+<td><code>GlobalAlloc</code>函数用于全局内存对象的分配</td>
+</tr>
+<tr>
+<td>对于分配的可移动内存、可删除内存读取前需加锁（相关函数<code>LocalLock</code>）否则将无法正常读取</td>
+<td>对于分配的可移动内存、可删除内存读取前需加锁（相关函数<code>GlobalLock</code>）否则将无法正常读取</td>
+</tr>
+<tr>
+<td>读取完成后需解锁（相关函数<code>LocalUnlock</code>）否则无法使用<code>LocalFree</code>函数来释放内存</td>
+<td>读取完成后需解锁（相关函数<code>GlobalUnlock</code>）否则无法使用<code>GlobalFree</code>函数来释放内存</td>
+</tr>
+<tr>
+<td>可以使用<code>LocalSize</code>函数去检测被分配的字节数</td>
+<td>可以使用<code>GlobalSize</code>函数去检测被分配的字节数</td>
+</tr>
+<tr>
+<td>可以使用<code>LocalFree</code>函数去释放这段内存</td>
+<td>可以使用<code>GlobalFree</code>函数去释放这段内存</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="Win32对话框响应按键消息"><a href="#Win32对话框响应按键消息" class="headerlink" title="Win32对话框响应按键消息"></a>Win32对话框响应按键消息</h2><p>你首先要确定你产生的对话框是<strong>Modal</strong>的，还是<strong>Modaless</strong>。产生<strong>模式对话框</strong>用<code>DialogBox</code>，则你的消息响应绝没问题，回车肯定会造成<strong>OK</strong>按钮被按下。</p>
+<p><code>CreateDialog</code>产生的是<strong>非模式对话框</strong>，非模式对话框没有自已的消息循环，它共用<code>WinMain</code>的消息循环。所以，为翻译与对话框有关的键盘操作，在主函数的消息循环中要使用函数<code>IsDialogMessage</code>，如果<code>IsDialogMessage</code>处理了消息，程序中就不应再使用<code>TranslateMessage</code>和<code>DispatchMessage</code>处理此消息。以参考以下代码：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">hDlg = CreateDialog(...);</span><br><span class="line"><span class="keyword">while</span> (GetMessage(&amp;msg,<span class="literal">NULL</span>,<span class="number">0</span>,<span class="number">0</span>))</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span> (hDlg==<span class="number">0</span>)||(!IsDialogMessage(hDlg,&amp;msg))</span><br><span class="line">    &#123;</span><br><span class="line">        TranslateMessage(&amp;msg);</span><br><span class="line">        DispatchMessage(&amp;msg);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p><strong>模式对话框</strong>的消息响应函数是由<strong>Windows</strong>直接提供的，不走主函数的消息循环。所以产生非模式对话框比模式的复杂</p>
+<hr>
+<h2 id="一些API函数"><a href="#一些API函数" class="headerlink" title="一些API函数"></a>一些API函数</h2><ul>
+<li>GetSystemMetrics</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//获取显示屏分辨率</span></span><br><span class="line">GetSystemMetrics(SM_CXSCREEN)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/GetAyncKeystate?fr=aladdin">GetAyncKeystate</a><br>  用于主动检测程序运行时某个按键的状态，包括弹起或按下状态<br>  函数声明为：</p>
+  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">SHORT <span class="title">GetAsyncKeyState</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> vKey</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>其中<code>vKey</code>参数为按键的虚拟键码，若返回值非0，则返回按键的状态。</li>
+<li>若最高位被置为1，则键被接下：若最低位被置为1，则该键在前次调用<code>GetAsyncKeystate</code>以来处于被接下的状态。</li>
+<li>使用虚拟键码常数<code>VD_SHIFT</code>，<code>VK_CONTROL</code>，<code>VK_MENU</code>作为<code>vKey</code>参数的值，这样给出Shift、Ctrl、AIt键的状态，而不区分是左键还是右键。</li>
+</ul>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/GetModuleHandle?fr=aladdin">GetModuleHandle</a><br>  获取一个应用程序或动态链接库的模块句柄</p>
+  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">HMODULE <span class="title">GetModuleHandle</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    LPCTSTR     lpModuleName</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>  <code>lpModuleName</code><br>  string类型，指定模块名，这通常是与模块的文件名相同的一个名字。例如，NOTEPAD.EXE程序的模块文件名就叫作NOTEPAD<br>  只有欲获取的模块已映射到调用该函数的进程内，才会正确得到模块句柄。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/GetWindowLong">GetWindowLong</a><br>  该函数获得指定窗口的有关信息，函数也获得在额外窗口内存中指定偏移位地址的32位度整型值。</p>
+  <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">LONG <span class="title">GetWindowLong</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    HWND hWnd,</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> nlndex</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>  <code>hWnd</code>可以是窗口句柄及间接给出的窗口所属的窗口类</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://bbs.csdn.net/topics/12878">EnumResourceNames</a><br>  枚举资源名称</p>
+</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">CopyFile</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">  LPCTSTR lpExistingFileName,</span></span></span><br><span class="line"><span class="function"><span class="params">  LPCTSTR lpNewFileName,</span></span></span><br><span class="line"><span class="function"><span class="params">  BOOL bFailIfExists</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">MoveFile</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">  LPCTSTR lpExistingFileName,</span></span></span><br><span class="line"><span class="function"><span class="params">  LPCTSTR lpNewFileName</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">DeleteFile</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">  LPCTSTR lpFileName</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">BOOL <span class="title">CreateDirectory</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">  LPCTSTR lpPathName,</span></span></span><br><span class="line"><span class="function"><span class="params">  LPSECURITY_ATTRIBUTES lpSecurityAttributes</span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="define"><a href="#define" class="headerlink" title="#define"></a>#define</h2><p>宏可以像函数一样被定义，例如：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   min(x,y)    (x&lt;y?x:y) <span class="comment">//事实上这个宏存在BUG</span></span></span><br></pre></td></tr></table></figure>
+
+<p>但是在实际使用时，只有当写上<code>min()</code>，必须加括号，<code>min</code>才会被作为宏展开，否则不做任何处理。</p>
+<p>如果宏需要参数，你可以不传，编译器会给你警告（宏参数不够），但是这会导致错误。<br>如C++书籍中所描述的，编译器（预处理器）对宏的语法检查不够，所以更多的检查性工作得你自己来做。</p>
+<p><code>#</code>符号把一个符号直接转换为字符串，例如：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   STRING(x)   #x</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">char</span> *str = STRING( test_string );</span><br></pre></td></tr></table></figure>
+
+<p><code>str</code>的内容就是<code>&quot;test_string&quot;</code>，也就是说#会把其后的符号直接加上双引号。</p>
+<p><code>##</code>符号会连接两个符号，从而产生新的符号(词法层次)，例如：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   SIGN( x )   INT_##x</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">SIGN</span><span class="params">( <span class="number">1</span> )</span></span>;</span><br></pre></td></tr></table></figure>
+
+<p>宏被展开后将成为：int INT_1;</p>
+<p>变参宏，这个比较酷，它使得你可以定义类似的宏：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   LOG( format, ... )  printf( format, __VA_ARGS__ )</span></span><br><span class="line">LOG( <span class="string">&quot;%s %d&quot;</span>, str, count );</span><br></pre></td></tr></table></figure>
+
+<p><code>__VA_ARGS__</code>是系统预定义宏，被自动替换为参数列表。</p>
+<p>当一个宏自己调用自己时，会发生什么？例如：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TEST( x )   ( x + TEST( x ) )</span></span><br><span class="line">TEST( <span class="number">1</span> );</span><br></pre></td></tr></table></figure>
+
+<p>会发生什么？为了防止无限制递归展开，语法规定，当一个宏遇到自己时，就停止展开.</p>
+<p>也就是说，当对<code>TEST(1)</code>进行展开时，展开过程中又发现了一个<code>TEST</code>，那么就将这个<code>TEST</code>当作一般的符号<code>TEST(1)</code>。</p>
+<p>最终被展开为：<code>1+TEST(1)</code></p>
+<p>宏参数的<strong>prescan</strong>，当一个宏参数被放进宏体时，这个宏参数会首先被全部展开(有例外，见下文)。</p>
+<p>当展开后的宏参数被放进宏体时，预处理器对新展开的宏体进行第二次扫描，并继续展开。例如：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   PARAM( x )    x</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   ADDPARAM( x )   INT_##x</span></span><br><span class="line">PARAM( ADDPARAM( <span class="number">1</span> ) );</span><br></pre></td></tr></table></figure>
+
+<p>因为<code>ADDPARAM( 1 )</code>是作为<code>PARAM</code>的宏参数，所以先将<code>ADDPARAM( 1 )</code>展开为<code>INT_1</code>，然后再将<code>INT_1</code>放进<code>PARAM</code>。</p>
+<p>例外情况是，如果PARAM宏里对宏参数使用了<code>#</code>或<code>##</code>，那么宏参数不会被展开：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   PARAM( x )    #x</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   ADDPARAM( x )   INT_##x</span></span><br><span class="line">PARAM( ADDPARAM( <span class="number">1</span> ) );</span><br></pre></td></tr></table></figure>
+
+<p>这里将被展开为<code>&quot;ADDPARAM( 1 )&quot;</code>。</p>
+<p>使用这么一个规则，可以创建一个很有趣的技术：打印出一个宏被展开后的样子，这样可以方便你分析代码：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TO_STRING( x )    TO_STRING1( x )</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TO_STRING1( x )   #x</span></span><br></pre></td></tr></table></figure>
+
+<p>(如果<code>x</code>也是一个宏的话)，然后再传给<code>TO_STRING1</code>转换为字符串，现在你可以这样：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">char</span> *str = TO_STRING( PARAM( ADDPARAM( <span class="number">1</span> ) ) );</span><br></pre></td></tr></table></figure>
+
+<p>去一探PARAM展开后的样子。</p>
+<p>一个很重要的补充：就像我在第一点说的那样，如果一个像函数的宏在使用时没有出现括号，那么预处理器只是将这个宏作为一般的符号处理(那就是不处理)。</p>
+<p>我们来见识一下宏是如何帮助我们自动产生代码的。如我所说，宏是在符号层次产生代码。</p>
+<p>我在分析<strong>Boost.Function</strong>模块时，因为它使用了大量的宏(宏嵌套，再嵌套)，导致我压根没看明白代码。</p>
+<p>后来发现了一个小型的模板库<strong>ttl</strong>，说的是开发一些小型组件去取代部分<strong>Boost</strong>(这是一个好理由，因为<strong>Boost</strong>确实太大)。</p>
+<p>同样，这个库也包含了一个function库。这里的function也就是我之前提到的<code>functor</code>。<br><strong>ttl.function</strong>库里为了自动产生很多类似的代码，使用了一个宏：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_TPARAMS(n)    TTL_TPARAMSX(n,T)</span></span><br></pre></td></tr></table></figure>
+
+<p>=&gt; <code>TTL_TPARAMSX( 1, T )</code></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_TPARAMSX(n,t) TTL_REPEAT(n, TTL_TPARAM, TTL_TPARAM_END, t)</span></span><br></pre></td></tr></table></figure>
+
+<p>=&gt; <code>TTL_REPEAT( 1, TTL_TPARAM, TTL_TPARAM_END, T )</code></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_TPARAM(n,t)   typename t##n,</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_TPARAM_END(n,t) typename t##n</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_REPEAT(n, m, l, p)  TTL_APPEND(TTL_REPEAT_, TTL_DEC(n))(m,l,p) TTL_APPEND(TTL_LAST_REPEAT_,n)(l,p)</span></span><br></pre></td></tr></table></figure>
+
+<p>注意，<code>TTL_TPARAM</code>, <code>TTL_TPARAM_END</code>虽然也是两个宏，他们被作为<code>TTL_REPEAT</code>宏的参数，按照<strong>prescan</strong>规则，似乎应该先将这两个宏展开再传给<code>TTL_REPEAT</code>。但是，如同我在前面重点提到的，这两个宏是<strong>function-like macro</strong>，使用时需要加括号，如果没加括号，则不当作宏处理。因此，展开<code>TTL_REPEAT</code>时，应该为：</p>
+<p>=&gt; <code>TTL_APPEND( TTL_REPEAT_, TTL_DEC(1))(TTL_TPARAM,TTL_TPARAM_END,T) TTL_APPEND( TTL_LAST_REPEAT_,1)(TTL_TPARAM_END,T)</code></p>
+<p>这个宏体看起来很复杂，仔细分析下，可以分为两部分：</p>
+<p><code>TTL_APPEND( TTL_REPEAT_, TTL_DEC(1))(TTL_TPARAM,TTL_TPARAM_END,T)</code><br>以及<br><code>TTL_APPEND( TTL_LAST_REPEAT_,1)(TTL_TPARAM_END,T)</code></p>
+<p>先分析第一部分：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_APPEND( x, y )  TTL_APPEND1(x,y) <span class="comment">//先展开x,y再将x,y连接起来</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_APPEND1( x, y ) x##y</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_DEC(n)    TTL_APPEND(TTL_CNTDEC_, n)</span></span><br></pre></td></tr></table></figure>
+
+<p>根据先展开参数的原则，会先展开<code>TTL_DEC(1)</code></p>
+<p>=&gt; <code>TTL_APPEND(TTL_CNTDEC_,1) =&gt; TTL_CNTDEC_1</code></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_CNTDEC_1    0  <span class="comment">//注意，TTL_CNTDEC_不是宏，TTL_CNTDEC_1是一个宏。</span></span></span><br></pre></td></tr></table></figure>
+
+<p>=&gt; <code>0</code>， 也就是说，<code>TTL_DEC(1)</code>最终被展开为0。回到<code>TTL_APPEND</code>部分：</p>
+<p>=&gt; <code>TTL_REPEAT_0 (TTL_TPARAM,TTL_TPARAM_END,T)</code></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_REPEAT_0(m,l,p)</span></span><br></pre></td></tr></table></figure>
+
+<p><code>TTL_REPEAT_0</code>这个宏为空，那么，上面说的第一部分被忽略，现在只剩下第二部分：</p>
+<p><code>TTL_APPEND( TTL_LAST_REPEAT_,1)(TTL_TPARAM_END,T)</code></p>
+<p>=&gt; <code>TTL_LAST_REPEAT_1 (TTL_TPARAM_END,T)</code> <code>TTL_APPEND</code>将<code>TTL_LAST_REPEAT_</code>和1合并起来</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_LAST_REPEAT_1(m,p)  m(1,p)</span></span><br></pre></td></tr></table></figure>
+
+<p>=&gt; <code>TTL_TPARAM_END( 1, T )</code></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>   TTL_TPARAM_END(n,t) typename t##n</span></span><br></pre></td></tr></table></figure>
+
+<p>=&gt; <code>typename T1</code>  展开完毕。</p>
+<hr>
+<h2 id="struct位域"><a href="#struct位域" class="headerlink" title="struct位域"></a>struct位域</h2><h3 id="位域定义"><a href="#位域定义" class="headerlink" title="位域定义"></a>位域定义</h3><p>与结构定义相仿，其形式为：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> 位域结构名</span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="comment">//位域列表</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>其中位域列表的形式为：<br>    类型说明符 位域名：位域长度<br>例如：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">bs</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> a:<span class="number">8</span>;</span><br><span class="line">    <span class="keyword">int</span> b:<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> c:<span class="number">6</span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h3 id="位域变量的说明"><a href="#位域变量的说明" class="headerlink" title="位域变量的说明"></a>位域变量的说明</h3><p>与结构变量说明的方式相同。可采用先定义后说明，同时定义说明或者直接说明这三种方式。例如：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">bs</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> a:<span class="number">8</span>;</span><br><span class="line">    <span class="keyword">int</span> b:<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> c:<span class="number">6</span>;</span><br><span class="line">&#125; data;</span><br></pre></td></tr></table></figure>
+
+<p>说明data为bs变量，共占2个字节。其中位域a占8位，位域b占2位，位域c占6位。</p>
+<h3 id="位域定义的几点说明"><a href="#位域定义的几点说明" class="headerlink" title="位域定义的几点说明"></a>位域定义的几点说明</h3><p>对于位域的定义尚有以下几点说明：</p>
+<ol>
+<li><p>一个位域必须存储在同一个字节中，不能跨两个字节。如一个字节所剩空间不够存放另一位域时，应从下一单元起存放该位域。也可以有意使某位域从下一单元开始。例如：</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">bs</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">unsigned</span> a: <span class="number">4</span>;</span><br><span class="line">    <span class="keyword">unsigned</span>  : <span class="number">0</span>;      <span class="comment">//空域</span></span><br><span class="line">    <span class="keyword">char</span>     b: <span class="number">4</span>;      <span class="comment">//从下一单元开始存放</span></span><br><span class="line">    <span class="keyword">unsigned</span> c: <span class="number">4</span>;</span><br><span class="line">&#125; data;</span><br></pre></td></tr></table></figure>
+
+<p> VC6（默认的配置，未作任何优化选择）对空域的处理。<br> 实验中，0x0012ff74为变量data的起始地址，位域a填充0x0012ff74的后四位，位域b从0x0012ff78开始，占据0x0012ff78的后四位。所以空域占据了从a开始的4个位剩余部分。<br> 乍看VC6对空域的处理是依据空域的类型，即unsigned。其实不然。<br> 经试验，空域所占大小和a的类型及空余的类型二者皆相关。<br> 即以下四种情况，</p>
+<ul>
+<li><p>a,空域皆为char时，二者共占据1字节；</p>
+</li>
+<li><p>a为unsigned，空域为unsigned；</p>
+</li>
+<li><p>a为char，空域为unsigned；</p>
+</li>
+<li><p>a为unsigned，空域为char；</p>
+<p>后三种情况，二者共占据4字节。</p>
+</li>
+</ul>
+</li>
+<li><p>位域的长度不能大于指定类型固有长度，比如说int的位域长度不能超过32，bool的位域长度不能超过8。</p>
+</li>
+<li><p>位域可以无位域名，这时它只用来作填充或调整位置。无名的位域是不能使用的。例如：</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">k</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> a: <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">int</span>  : <span class="number">2</span>;      <span class="comment">//该2位不能使用</span></span><br><span class="line">    <span class="keyword">int</span> b: <span class="number">3</span>;</span><br><span class="line">    <span class="keyword">int</span> c: <span class="number">2</span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p> 从以上分析可以看出，位域在本质上就是一种结构类型，不过其成员是按二进位分配的。</p>
+</li>
+</ol>
+<h3 id="位域的使用"><a href="#位域的使用" class="headerlink" title="位域的使用"></a>位域的使用</h3><p>位域的使用和结构成员的使用相同，其一般形式为：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">位域变量名.位域名</span><br></pre></td></tr></table></figure>
+
+<p>位域允许用各种格式输出。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">bs</span></span></span><br><span class="line"><span class="class">    &#123;</span></span><br><span class="line">    <span class="keyword">unsigned</span> a: <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">unsigned</span> b: <span class="number">3</span>;</span><br><span class="line">    <span class="keyword">unsigned</span> c: <span class="number">4</span>;</span><br><span class="line">    &#125; bit, *pbit;</span><br><span class="line"></span><br><span class="line">    bit.a = <span class="number">1</span>;</span><br><span class="line">    bit.b = <span class="number">7</span>;</span><br><span class="line">    bit.c = <span class="number">15</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d,%d,%d\n&quot;</span>, bit.a, bit.b, bit.c);</span><br><span class="line">    pbit = &amp;bit;</span><br><span class="line">    pbit-&gt;a = <span class="number">0</span>;</span><br><span class="line">    pbit-&gt;b &amp;= <span class="number">3</span>;</span><br><span class="line">    pbit-&gt;c |= <span class="number">1</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d,%d,%d\n&quot;</span>, pbit-&gt;a, pbit-&gt;b, pbit-&gt;c);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>上例程序中定义了位域结构bs，三个位域为a,b,c。说明了bs类型的变量bit和指向bs类型的指针变量pbit。这表示位域也是可以使用指针的。<br>程序的9、10、11三行分别给三个位域赋值。(应注意赋值不能超过该位域的允许范围)程序第12行以整型量格式输出三个域的内容。<br>第13行把位域变量bit的地址送给指针变量pbit。第14行用指针方式给位域a重新赋值，赋为0。<br>第15行使用了复合的位运算符”&amp;=”，该行相当于：pbit-&gt;b=pbit-&gt;b&amp;3位域b中原有值为7，与3作按位与运算的结果为3(111&amp;011=011,十进制值为3)。<br>同样，程序第16行中使用了复合位运算”|=”，相当于：pbit-&gt;c=pbit-&gt;c|1其结果为15。程序第17行用指针方式输出了这三个域的值。<br>为了节省空间，可以把几个数据压缩到少数的几个类型空间上，比如需要表示二个3位二进制的数，一个2位二进制的数，则可以用一个8位的字符表示之。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">char</span> a: <span class="number">3</span>;</span><br><span class="line">    <span class="keyword">char</span> b: <span class="number">3</span>;</span><br><span class="line">    <span class="keyword">char</span> c: <span class="number">2</span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>这个结构体所占空间为一个字节，8位。节省了空间。</p>
+<h3 id="位域的对齐"><a href="#位域的对齐" class="headerlink" title="位域的对齐"></a>位域的对齐</h3><p>如果结构体中含有位域(bit-field)，那么VC中准则是：</p>
+<ol>
+<li>如果相邻位域字段的类型相同，且其位宽之和小于类型的sizeof大小，则后面的字段将紧邻前一个字段存储，直到不能容纳为止；</li>
+<li>如果相邻位域字段的类型相同，但其位宽之和大于类型的sizeof大小，则后面的字段将从新的存储单元开始，其偏移量为其类型大小的整数倍；</li>
+<li>如果相邻的位域字段的类型不同，则各编译器的具体实现有差异，VC6采取不压缩方式（不同位域字段存放在不同的位域类型字节中），Dev-C++和GCC都采取压缩方式；</li>
+</ol>
+<p>系统会先为结构体成员按照对齐方式分配空间和填塞（padding）,然后对变量进行位域操作。</p>
+<h3 id="位域的符号特性"><a href="#位域的符号特性" class="headerlink" title="位域的符号特性"></a>位域的符号特性</h3><p>位域的符号特性，是说位域变量的正或者负的问题。当使用有符号类型来定义位域，并且使用到了正负（有意或者无意）特性作为判断条件时，就有问题了。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">test</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">test(<span class="keyword">int</span> i1,<span class="keyword">int</span> j1,<span class="keyword">int</span> k1)&#123;</span><br><span class="line">i = i1;</span><br><span class="line">j = j1;</span><br><span class="line">k = k1;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">int</span> i:<span class="number">1</span>;</span><br><span class="line"><span class="keyword">int</span> j:<span class="number">2</span>;</span><br><span class="line"><span class="keyword">int</span> k:<span class="number">13</span>;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span> <span class="params">()</span></span>&#123;</span><br><span class="line"><span class="function">test <span class="title">t</span><span class="params">((<span class="keyword">int</span>)<span class="number">1</span>,(<span class="keyword">int</span>)<span class="number">2</span>,(<span class="keyword">int</span>)<span class="number">3</span>)</span></span>;</span><br><span class="line"><span class="built_in">cout</span>&lt;&lt;t.i&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;t.j&lt;&lt;<span class="string">&quot; &quot;</span>&lt;&lt;t.k;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>上面这个程序的输出是</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">-1</span> <span class="number">-2</span> <span class="number">3</span></span><br></pre></td></tr></table></figure>
+
+<p>和我们预想的1，2，3不同。<br>有符号数在机器中是以补码的形式存在的，其正负的判断有其规则。位域是以原码的形式来进行操作的，这中间有差异，造成了上面的结果。<br>而关于位域的正负数判断，也不是简单的首bit的0或1来决定，否则上面的结果就应该是</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">-1</span> <span class="number">-2</span> <span class="number">-3</span></span><br></pre></td></tr></table></figure>
+
+<p>或者</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span> <span class="number">2</span> <span class="number">3</span></span><br></pre></td></tr></table></figure>
+
+<p>了。位域的实现，是编译器相关的。<br>建议是，使用位域不要使用正负这样的特性——理论上来说，应该只关注定义的那几个bit的0或者1，是无符号的。<br>当然，像上面那条打印也没有使用正负特性。这就是无意识的过程中使用了正负特性。<br>可以使用无符号类型来定义位域，这样不会产生正负号这样的问题。</p>
+<hr>
+<h2 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h2><ol>
+<li><p>用最短字符表示最准确的意义。</p>
+</li>
+<li><p>使用变量前缀。</p>
+<ol>
+<li><p>整型前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span>             nId;    <span class="comment">//int前缀：n</span></span><br><span class="line"><span class="keyword">short</span>           sId;    <span class="comment">//short前缀：s</span></span><br><span class="line"><span class="keyword">unsigned</span> <span class="keyword">int</span>    unId    <span class="comment">//unsigned int前缀：un</span></span><br><span class="line"><span class="keyword">long</span>            lId;    <span class="comment">//long前缀：l</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>浮点型前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">float</span>   fValue;     <span class="comment">//float前缀：f</span></span><br><span class="line"><span class="keyword">double</span>  dValue;     <span class="comment">//double前缀：d</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>字符型前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span>    chChar;     <span class="comment">//char前缀：ch</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>字符串前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span>    szPath;     <span class="comment">//char字符串前缀：sz</span></span><br><span class="line"><span class="built_in">string</span>  strPath;    <span class="comment">//string字符串前缀：str</span></span><br><span class="line">CString strPath;    <span class="comment">//MFC CString类前缀：str</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>布尔型前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">bool</span>    bIsOK;      <span class="comment">//bool类型前缀：b</span></span><br><span class="line">BOOL    bIsOK;      <span class="comment">//MFC BOOL前缀：b</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>指针型前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> *  pPath;      <span class="comment">//指针前缀：p</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>数组前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span>     arrnNum;    <span class="comment">//数组前缀：arr</span></span><br><span class="line">CString arrstrName; <span class="comment">//数组前缀+类型前缀+名称</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>结构体前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">STUDENT tXiaoZhang; <span class="comment">//结构体前缀：t</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>枚举前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">enum</span>    <span class="title">emWeek</span>;</span>     <span class="comment">//枚举前缀：em</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>字节的前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">BYTE    byIP;       <span class="comment">//字节前缀：by</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>字的前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">DWORD   dwMsgID;    <span class="comment">//双字前缀：dw</span></span><br><span class="line">WORD    wMsgID;     <span class="comment">//单字前缀：w</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>字符指针前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">LPCTSTR ptszName;   <span class="comment">//TCHAR类型为ptsz</span></span><br><span class="line">LPCSTR  pszName;    <span class="comment">//pcsz</span></span><br><span class="line">LPSTR   pszName;    <span class="comment">//psz</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>STL容器前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; vecValue;   <span class="comment">//vector容器前缀：vec</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>RECT矩形结构前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">RECT    rcChild;    <span class="comment">//rc</span></span><br><span class="line">CRECT   rcChild;    <span class="comment">//rc</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>句柄前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">HWND    hWndDlg;    <span class="comment">//h</span></span><br><span class="line">HBRUSH  hBr;        <span class="comment">//h</span></span><br><span class="line">HPEN    hPen;       <span class="comment">//h</span></span><br><span class="line">HBITMAP hBmpBack;   <span class="comment">//h</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Windows颜色前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">COLORREF    crFont; <span class="comment">//cr</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Windows DC前缀</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CDC     dcClient;   <span class="comment">//dc</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li><p>类的成员变量以m_开头，后面为变量，变量同时还要加前缀。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CString     m_strName;  <span class="comment">//m_开头+类型前缀+名称</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>定义一个变量，为了简化，在不影响变量意义的情况下，可仅仅使用前缀。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">RECT    rc;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>全局变量一律以g_开头，后面为变量，变量同时还要加前缀。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span>     g_nID;  <span class="comment">//g</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>定义结构体，保证C和C++兼容，采用typedef语句，并且结构体类型全部大写，以T_开头，指针形式以PT_开头。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">tagTSTUDENT</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span>     nId;</span><br><span class="line">    CString strName;</span><br><span class="line">&#125; STUDENT, *PSTUDENT;</span><br><span class="line">STUDENT tXiaoZhang; <span class="comment">//完整定义结构体</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>变量由多个单词组成，则每个单词的首个字母大写。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span>     nStudentID;</span><br><span class="line">CString strStudentName;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>定义一个类以C或者T做为类名前缀。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span>   <span class="title">CMyListCtrl</span>;</span></span><br><span class="line"><span class="class"><span class="keyword">class</span>   <span class="title">TMyListCtrl</span>;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>MFC控件绑定值类别或者控件类类别，需要以m_开头并且加前缀。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">CButton     m_BTN_strValue; <span class="comment">//Button绑定控件类别</span></span><br><span class="line">CEdit       m_EDT_strValue; <span class="comment">//Edit绑定控件类别</span></span><br><span class="line">CListBox    m_LB_Name;      <span class="comment">//ListBox</span></span><br><span class="line">CListCtrl   m_LC_Name;      <span class="comment">//ListCtrl</span></span><br><span class="line">CComboBox   m_CB_Name;      <span class="comment">//ComboBox</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>控件ID尽量简化并表明控件类型和意义。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Button    IDC_BNT_NAME;</span><br><span class="line">Edit      IDC_EDT_NAME;</span><br><span class="line">ListBox   IDC_LB_NAME;</span><br><span class="line">ListCtrl  IDC_LC_NAME;</span><br><span class="line">ComboBox  IDC_CB_NAME;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<hr>
+<h2 id="类型转换操作符"><a href="#类型转换操作符" class="headerlink" title="类型转换操作符"></a>类型转换操作符</h2><h3 id="隐式类型转换"><a href="#隐式类型转换" class="headerlink" title="隐式类型转换"></a>隐式类型转换</h3><p>又称为“标准转换”，包括以下几种情况：</p>
+<ol>
+<li><p>算术转换(Arithmetic conversion) : 在混合类型的算术表达式中, 最宽的数据类型成为目标转换类型。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> ival = <span class="number">3</span>;</span><br><span class="line"><span class="keyword">double</span> dval = <span class="number">3.14159</span>;</span><br><span class="line"></span><br><span class="line">ival + dval; <span class="comment">//ival被提升为double类型</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>一种类型表达式赋值给另一种类型的对象：目标类型是被赋值对象的类型。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> *pi = <span class="number">0</span>; <span class="comment">// 0被转化为int *类型</span></span><br><span class="line">ival = dval; <span class="comment">// double-&gt;int</span></span><br></pre></td></tr></table></figure>
+
+<p> 例外：void指针赋值给其他指定类型指针时，不存在标准转换，编译出错</p>
+</li>
+<li><p>将一个表达式作为实参传递给函数调用，此时形参和实参类型不一致：目标转换类型为形参的类型。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">double</span> <span class="title">sqrt</span><span class="params">(<span class="keyword">double</span>)</span></span>&#123;&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">cout</span> &lt;&lt; <span class="string">&quot;The square root of 2 is &quot;</span> &lt;&lt; <span class="built_in">sqrt</span>(<span class="number">2</span>) &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"><span class="comment">//2被提升为double类型：2.0</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>从一个函数返回一个表达式，表达式类型与返回类型不一致：目标转换类型为函数的返回类型。</p>
+ <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">double</span> <span class="title">difference</span><span class="params">(<span class="keyword">int</span> ival1, <span class="keyword">int</span> ival2)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> ival1 - ival2;</span><br><span class="line">    <span class="comment">//返回值被提升为double类型</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h3 id="显式类型转换"><a href="#显式类型转换" class="headerlink" title="显式类型转换"></a>显式类型转换</h3><p>被称为<em>强制类型转换</em>(cast)</p>
+<p>C风格：(type-id)<br>C++风格：static_cast、dynamic_cast、reinterpret_cast、和const_cast</p>
+<p>关于强制类型转换的问题，很多书都讨论过，写的最详细的是C++ 之父的<em>《C++的设计和演化》</em>。最好的解决方法就是不要使用C风格的强制类型转换，而是使用标准C++的类型转换符：<code>static_cast</code>, <code>dynamic_cast</code>。标准C++中有四个类型转换符：<code>static_cast</code>、<code>dynamic_cast</code>、<code>reinterpret_cast</code>、和<code>const_cast</code>。下面对它们一一进行介绍。</p>
+<h4 id="static-cast"><a href="#static-cast" class="headerlink" title="static_cast"></a>static_cast</h4><p>用法：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static_cast</span> &lt; type-id &gt; ( expression )</span><br></pre></td></tr></table></figure>
+
+<p>说明：该运算符把expression转换为<code>type-id</code>类型，但没有运行时类型检查来保证转换的安全性。</p>
+<blockquote>
+<p>来源：为什么需要<code>static_cast</code>强制转换？</p>
+<ul>
+<li>情况1：void指针-&gt;其他类型指针</li>
+<li>情况2：改变通常的标准转换</li>
+<li>情况3：避免出现可能多种转换的歧义</li>
+</ul>
+</blockquote>
+<p>它主要有如下几种用法：</p>
+<ul>
+<li>用于类层次结构中基类和子类之间指针或引用的转换。<br>  进行上行转换（把子类的指针或引用转换成基类表示）是安全的；<br>  进行下行转换（把基类指针或引用转换成子类指针或引用）时，由于没有动态类型检查，所以是不安全的。</li>
+<li>用于基本数据类型之间的转换，如把int转换成char，把int转换成enum。这种转换的安全性也要开发人员来保证。</li>
+<li>把void指针转换成目标类型的指针(不安全!!)</li>
+<li>把任何类型的表达式转换成void类型。</li>
+</ul>
+<p>注意：<code>static_cast</code>不能转换掉expression的<code>const</code>、<code>volitale</code>、或者<code>__unaligned</code>属性。</p>
+<h4 id="dynamic-cast"><a href="#dynamic-cast" class="headerlink" title="dynamic_cast"></a>dynamic_cast</h4><p>用法：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">dynamic_cast</span> &lt; type-id &gt; ( expression )</span><br></pre></td></tr></table></figure>
+
+<p>说明：<br>该运算符把expression转换成<code>type-id</code>类型的对象。<br><code>type-id</code>必须是<strong>类的指针</strong>、<strong>类的引用</strong>或者<strong>void *</strong>；<br>如果<code>type-id</code>是类指针类型，那么expression也必须是一个指针；<br>如果type-id是一个引用，那么expression也必须是一个引用。</p>
+<blockquote>
+<p>来源：为什么需要dynamic_cast强制转换？</p>
+<p>简单的说，当无法使用virtual函数的时候</p>
+<blockquote>
+<p><strong>典型案例</strong>：</p>
+<p>某A公司提供给我们一个类库，其中提供一个类<em>Employee</em>.以头文件&lt;*Eemployee.h*&gt;和类库*.lib*分发给用户<br>显然我们并无法得到类的实现的源代码</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Emplyee.h</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Employee</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">salary</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Manager</span> :</span> <span class="keyword">public</span> Employee</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">salary</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Programmer</span> :</span> <span class="keyword">public</span> Employee</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">salary</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>我们公司在开发的时候建立有如下类:</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyCompany</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">payroll</span><span class="params">(Employee *pe)</span></span>;</span><br><span class="line">    <span class="comment">//</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">MyCompany::payroll</span><span class="params">(Employee *pe)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//do something</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>但是开发到后期，我们希望能增加一个<code>bonus()</code>的成员函数到该A公司提供的类层次中。<br>假设我们知道源代码的情况下，很简单，增加虚函数：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Emplyee.h</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Employee</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">salary</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">bonus</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Manager</span> :</span> <span class="keyword">public</span> Employee</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">salary</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Programmer</span> :</span> <span class="keyword">public</span> Employee</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">salary</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">bonus</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Emplyee.cpp</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Programmer::bonus</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>payroll()通过多态来调用bonus()</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyCompany</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">payroll</span><span class="params">(Employee *pe)</span></span>;</span><br><span class="line">    <span class="comment">//</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">MyCompany::payroll</span><span class="params">(Employee *pe)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//do something</span></span><br><span class="line">    <span class="comment">//pe-&gt;bonus();</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>但是现在情况是，我们并不能修改源代码，怎么办？<code>dynamic_cast</code>华丽登场了！<br>在&lt;*Employee.h*&gt;中增加<code>bonus()</code>声明，在另一个地方定义此函数，修改调用函数<code>payroll()</code>。重新编译，ok</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Emplyee.h</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Employee</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">int</span> <span class="title">salary</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Manager</span> :</span> <span class="keyword">public</span> Employee</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">salary</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Programmer</span> :</span> <span class="keyword">public</span> Employee</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">salary</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">bonus</span><span class="params">()</span></span>;<span class="comment">//直接在这里扩展</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//somewhere.cpp</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Programmer::bonus</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//define</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyCompany</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">payroll</span><span class="params">(Employee *pe)</span></span>;</span><br><span class="line">    <span class="comment">//</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">MyCompany::payroll</span><span class="params">(Employee *pe)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    Programmer *pm = <span class="keyword">dynamic_cast</span>&lt;Programmer *&gt;(pe);</span><br><span class="line"></span><br><span class="line">    <span class="comment">//如果pe实际指向一个Programmer对象,dynamic_cast成功，并且开始指向Programmer对象起始处</span></span><br><span class="line">    <span class="keyword">if</span>(pm)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//call Programmer::bonus()</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//如果pe不是实际指向Programmer对象，dynamic_cast失败，并且pm = 0</span></span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//use Employee member functions</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</blockquote>
+</blockquote>
+<p><code>dynamic_cast</code>主要用于类层次间的上行转换和下行转换，还可以用于类之间的交叉转换。</p>
+<ul>
+<li>在类层次间进行上行转换时，<code>dynamic_cast</code>和<code>static_cast</code>的效果是一样的；</li>
+<li>在进行下行转换时，<code>dynamic_cast</code>具有类型检查的功能，比<code>static_cast</code>更安全。</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Base</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="keyword">int</span> m_iNum;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">foo</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Derived</span>:</span><span class="keyword">public</span> Base</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="keyword">char</span> *m_szName[<span class="number">100</span>];</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">func</span><span class="params">(Base *pb)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    Derived *pd1 = <span class="keyword">static_cast</span>&lt;Derived *&gt;(pb);</span><br><span class="line">    Derived *pd2 = <span class="keyword">dynamic_cast</span>&lt;Derived *&gt;(pb);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在上面的代码段中：</p>
+<ul>
+<li>如果pb实际指向一个Derived类型的对象，pd1和pd2是一样的，并且对这两个指针执行Derived类型的任何操作都是安全的；</li>
+<li>如果pb实际指向的是一个Base类型的对象，那么pd1将是一个指向该对象的指针，对它进行Derived类型的操作将是不安全的（如访问m_szName），而pd2将是一个空指针(即0，因为<code>dynamic_cast</code>失败)。</li>
+</ul>
+<p>另外要注意：<br>Base要有虚函数，否则会编译出错；<code>static_cast</code>则没有这个限制。这是由于运行时类型检查需要运行时类型信息，而这个信息存储在类的虚函数表（关于虚函数表的概念，详细可见《Inside the C++ Object Model》）中，只有定义了虚函数的类才有虚函数表，没有定义虚函数的类是没有虚函数表的。</p>
+<p>另外，<code>dynamic_cast</code>还支持交叉转换（cross cast）。如下代码所示。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Base</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="keyword">int</span> m_iNum;</span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">f</span><span class="params">()</span></span>&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Derived1</span> :</span> <span class="keyword">public</span> Base</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Derived2</span> :</span> <span class="keyword">public</span> Base</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">foo</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    derived1 *pd1 = <span class="keyword">new</span> Drived1;</span><br><span class="line">    pd1-&gt;m_iNum = <span class="number">100</span>;</span><br><span class="line">    Derived2 *pd2 = <span class="keyword">static_cast</span>&lt;Derived2 *&gt;(pd1); <span class="comment">//compile error</span></span><br><span class="line">    Derived2 *pd2 = <span class="keyword">dynamic_cast</span>&lt;Derived2 *&gt;(pd1); <span class="comment">//pd2 is NULL</span></span><br><span class="line">    <span class="keyword">delete</span> pd1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在函数foo中，使用<code>static_cast</code>进行转换是不被允许的，将在编译时出错；而使用<code>dynamic_cast</code>的转换则是允许的，结果是空指针。</p>
+<h4 id="reinpreter-cast"><a href="#reinpreter-cast" class="headerlink" title="reinpreter_cast"></a>reinpreter_cast</h4><p>用法：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reinpreter_cast&lt;type-id&gt; (expression)</span><br></pre></td></tr></table></figure>
+
+<p>说明：<code>type-id</code>必须是一个指针、引用、算术类型、函数指针或者成员指针。它可以把一个指针转换成一个整数，也可以把一个整数转换成一个指针（先把一个指针转换成一个整数，在把该整数转换成原类型的指针，还可以得到原先的指针值）。</p>
+<p>该运算符的用法比较多。</p>
+<h4 id="const-cast"><a href="#const-cast" class="headerlink" title="const_cast"></a>const_cast</h4><p>用法：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const_cast</span>&lt;type_id&gt; (expression)</span><br></pre></td></tr></table></figure>
+
+<p>说明：该运算符用来修改类型的<code>const</code>或<code>volatile</code>属性。除了<code>const</code>或<code>volatile</code>修饰之外，<code>type_id</code>和expression的类型是一样的。</p>
+<p>常量指针被转化成非常量指针，并且仍然指向原来的对象；常量引用被转换成非常量引用，并且仍然指向原来的对象；常量对象被转换成非常量对象。</p>
+<p><code>Voiatile</code>和<code>const</code>类试。举如下一例：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">B</span>&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="keyword">int</span> m_iNum;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">foo</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">const</span> B b1;</span><br><span class="line">    b1.m_iNum = <span class="number">100</span>; <span class="comment">//comile error</span></span><br><span class="line">    B b2 = <span class="keyword">const_cast</span>&lt;B&gt;(b1);</span><br><span class="line">    b2.m_iNum = <span class="number">200</span>; <span class="comment">//fine</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>上面的代码编译时会报错，因为b1是一个常量对象，不能对它进行改变；使用<code>const_cast</code>把它转换成一个常量对象，就可以对它的数据成员任意改变。注意：b1和b2是两个不同的对象。</p>
+<hr>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+
+
+
+
+
+          <div class="main-footer">
+  
+    © 2020 Hexo - Powered by <a href="http://hexo.io" target="_blank">Hexo</a> - Theme <a href="https://github.com/denjones/hexo-theme-chan" target="_blank">Chan</a>
+  
+</div>
+
+      
+        </div>
+      
+    </div>
+  </div>
+  
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/PhotoSwipe/photoswipe.css">
+
+  
+<link rel="stylesheet" href="/PhotoSwipe/default-skin/default-skin.css">
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+             It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<script src="/PhotoSwipe/photoswipe.js"></script>
+
+  
+<script src="/PhotoSwipe/photoswipe-ui-default.js"></script>
+
+
+
+
+<script src="/perfect-scrollbar/js/min/perfect-scrollbar.min.js"></script>
+
+
+<script src="/scripts/main.js"></script>
+
+
+<script src="/scripts/copycode.js"></script>
+
+
+</body>
+</html>

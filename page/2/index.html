@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<title>
+  
+    Hexo
+  
+</title>
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/page/2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Yang">
+<meta name="twitter:card" content="summary">
+
+
+  <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+
+
+
+
+
+  <link rel="icon" href="/favicon.png">
+
+
+
+<link rel="stylesheet" href="/perfect-scrollbar/css/perfect-scrollbar.min.css">
+
+
+<link rel="stylesheet" href="/styles/main.css">
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 5.2.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+<body
+  
+    class="monochrome"
+  
+  >
+  <div class="mobile-header">
+  <button class="sidebar-toggle" type="button">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="title" href="/">Hexo</a>
+</div>
+
+  <div class="main-container">
+    <div class="sidebar">
+  <div class="header">
+    <h1 class="title"><a href="/">Hexo</a></h1>
+    
+    <div class="info">
+      <div class="content">
+        
+        
+          <div class="author">Yang</div>
+        
+      </div>
+      
+        <div class="avatar">
+          
+            <a href="/about"><img src="https://cn.gravatar.com/avatar/35fef74d731255cd569c2c2b0b9e87e4?s=200"></a>
+          
+        </div>
+      
+    </div>
+  </div>
+  <div class="body">
+    
+      
+        <ul class="nav">
+          
+            
+              <li>
+                <a href="/" title="主页" external="false">主页</a>
+              </li>
+            
+          
+        </ul>
+      
+        <ul class="nav">
+          
+            
+              <li class="category-list-container">
+                <a href="javascript:;">分类</a>
+                <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android/">Android</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/C/">C++</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Html/">Html</a><span class="category-list-count">30</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Html/JavaScript/">JavaScript</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Html/JavaScript/ES6/">ES6</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Html/Vue/">Vue</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Java/">Java</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Math/">Math</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Python/">Python</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Qt/">Qt</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/">正则表达式</a><span class="category-list-count">1</span></li></ul>
+              </li>
+            
+          
+            
+              <li class="tag-list-container">
+                <a href="javascript:;">标签</a>
+                <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Android/" rel="tag">Android</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Android-Studio/" rel="tag">Android Studio</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/" rel="tag">C++</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/C-11/" rel="tag">C++ 11</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/COM-%E7%BB%84%E4%BB%B6/" rel="tag">COM 组件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CSS/" rel="tag">CSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Chrome/" rel="tag">Chrome</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Chrome-%E6%8F%92%E4%BB%B6/" rel="tag">Chrome 插件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DirextX/" rel="tag">DirextX</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/DirextX-12/" rel="tag">DirextX 12</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ES5/" rel="tag">ES5</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ES6/" rel="tag">ES6</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Git/" rel="tag">Git</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Html/" rel="tag">Html</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IntelliJ-Idea/" rel="tag">IntelliJ Idea</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaScript/" rel="tag">JavaScript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/" rel="tag">Linux</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Math/" rel="tag">Math</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Node-js/" rel="tag">Node.js</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Parcel/" rel="tag">Parcel</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Promise/" rel="tag">Promise</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Proxy/" rel="tag">Proxy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python/" rel="tag">Python</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Qt/" rel="tag">Qt</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SVG/" rel="tag">SVG</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Scoop/" rel="tag">Scoop</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Sublime-Text-3/" rel="tag">Sublime Text 3</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Symbol/" rel="tag">Symbol</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TypeScript/" rel="tag">TypeScript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VSCode/" rel="tag">VSCode</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue-Router/" rel="tag">Vue Router</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue-js/" rel="tag">Vue.js</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue%E6%BA%90%E7%A0%81/" rel="tag">Vue源码</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Webpack/" rel="tag">Webpack</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Win32-%E5%BC%80%E5%8F%91/" rel="tag">Win32 开发</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/awk/" rel="tag">awk</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bat/" rel="tag">bat</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cmd/" rel="tag">cmd</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/grep/" rel="tag">grep</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jQuery/" rel="tag">jQuery</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vector/" rel="tag">vector</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xarg/" rel="tag">xarg</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8E%9F%E7%90%86/" rel="tag">原理</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%91%BD%E4%BB%A4/" rel="tag">命令</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%97%E4%BD%93/" rel="tag">字体</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag">工具</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7/" rel="tag">打包工具</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8F%92%E4%BB%B6/" rel="tag">插件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/" rel="tag">插件开发</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" rel="tag">操作系统</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" rel="tag">正则表达式</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/" rel="tag">注册表</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/" rel="tag">游戏开发</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E8%84%91%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95/" rel="tag">电脑性能测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A0%B4%E8%A7%A3/" rel="tag">破解</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%BE%E7%BD%AE/" rel="tag">设置</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BD%AF%E4%BB%B6/" rel="tag">软件</a><span class="tag-list-count">6</span></li></ul>
+              </li>
+            
+          
+            
+              <li class="archive-list-container">
+                <a href="javascript:;">归档</a>
+                <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/">2018</a><span class="archive-list-count">48</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/">2017</a><span class="archive-list-count">7</span></li></ul>
+              </li>
+            
+          
+        </ul>
+      
+    
+  </div>
+</div>
+
+    <div class="main-content">
+      
+        <div style="max-width: 1000px">
+      
+          
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2019/08/20/%E5%BC%80%E5%8F%91/Android/Android%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/" >
+  Android 的基本知识
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2019/08/20/%E5%BC%80%E5%8F%91/Android/Android%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/"><span class="article-date">
+  2019-08-20
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Android/">Android</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android/" rel="tag">Android</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <ul>
+<li>像素单位：<code>dp</code></li>
+<li>字体单位：<code>sp</code></li>
+<li>一个 <code>XML</code> 布局文件中最多只能有一个根布局管理器</li>
+<li>根布局管理器必须包含 <code>xmlns</code> 属性</li>
+<li>布局管理器不要嵌套太深，容易影响性能</li>
+</ul>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2019/04/13/%E5%BC%80%E5%8F%91/Linux/vim%E7%BC%96%E8%BE%91%E5%99%A8%E7%9A%84%E4%BD%BF%E7%94%A8/" >
+  vim 编辑器的使用
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2019/04/13/%E5%BC%80%E5%8F%91/Linux/vim%E7%BC%96%E8%BE%91%E5%99%A8%E7%9A%84%E4%BD%BF%E7%94%A8/"><span class="article-date">
+  2019-04-13
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Linux/">Linux</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <h2 id="光标移动"><a href="#光标移动" class="headerlink" title="光标移动"></a>光标移动</h2><ul>
+<li>使用方向键移动</li>
+<li><code>h</code>：左 / <code>j</code>：下 / <code>k</code>：上 / <code>l</code>：右</li>
+</ul>
+<h2 id="退出"><a href="#退出" class="headerlink" title="退出"></a>退出</h2><ul>
+<li><code>:q</code>：关闭窗口</li>
+<li><code>:qa!</code>：退出Vim，所有改变都会丢失</li>
+</ul>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2019/04/13/%E5%BC%80%E5%8F%91/Linux/xarg%E5%91%BD%E4%BB%A4/" >
+  xarg
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2019/04/13/%E5%BC%80%E5%8F%91/Linux/xarg%E5%91%BD%E4%BB%A4/"><span class="article-date">
+  2019-04-13
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Linux/">Linux</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/xarg/" rel="tag">xarg</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%91%BD%E4%BB%A4/" rel="tag">命令</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2019/04/12/%E5%BC%80%E5%8F%91/Linux/awk%E5%91%BD%E4%BB%A4/" >
+  awk 命令
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2019/04/12/%E5%BC%80%E5%8F%91/Linux/awk%E5%91%BD%E4%BB%A4/"><span class="article-date">
+  2019-04-12
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Linux/">Linux</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/awk/" rel="tag">awk</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%91%BD%E4%BB%A4/" rel="tag">命令</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/ginvip/p/6352157.html">参考链接</a></p>
+<p><code>awk</code> 语言的最基本功能是在文件或者字符串中基于指定规则浏览和抽取信息，<code>awk</code> 抽取信息后，才能进行其他文本操作。</p>
+<h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">awk <span class="string">&#x27;&#123;pattern + action&#125;&#x27;</span> &#123;filenames&#125;</span><br></pre></td></tr></table></figure>
+
+<p>其语法总是这样，其中 <code>pattern</code> 表示 <code>AWK</code> 在数据中查找的内容，而 <code>action</code> 是在找到匹配内容时所执行的一系列命令。<br>花括号（{}）不需要在程序中始终出现，但它们用于根据特定的模式对一系列指令进行分组。 pattern就是要表示的正则表达式，用斜杠括起来。<br>完整的awk脚本通常用来格式化文本文件中的信息。</p>
+<p>通常， <code>awk</code> 是以文件的一行为处理单位的。 <code>awk</code> 每接收文件的一行，然后执行相应的命令，来处理文本。</p>
+<h2 id="常用awk内置变量"><a href="#常用awk内置变量" class="headerlink" title="常用awk内置变量"></a>常用awk内置变量</h2><img src="/2019/04/12/%E5%BC%80%E5%8F%91/Linux/awk%E5%91%BD%E4%BB%A4/value.png" class="" title="常用awk内置变量" alt="常用awk内置变量">
+
+<ul>
+<li><code>FS</code> : 字段分隔符。</li>
+<li><code>NF</code> : 当前行的字段数量。</li>
+<li><code>NR</code> : 当前行的行数。</li>
+<li><code>RS</code> : 记录分隔符。</li>
+</ul>
+<h2 id="awk中的运算符"><a href="#awk中的运算符" class="headerlink" title="awk中的运算符"></a>awk中的运算符</h2><img src="/2019/04/12/%E5%BC%80%E5%8F%91/Linux/awk%E5%91%BD%E4%BB%A4/operater.png" class="" title="awk 中的运算符" alt="awk 中的运算符">
+
+<h2 id="awk中使用正则表达式"><a href="#awk中使用正则表达式" class="headerlink" title="awk中使用正则表达式"></a>awk中使用正则表达式</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">awk <span class="string">&#x27;/REG/&#123;action&#125;&#x27;</span> file</span><br></pre></td></tr></table></figure>
+
+<p><code>/REG/</code> 为正则表达式，可以将$0 中，满足条件的记录送入到：action 进行处理。</p>
+<h2 id="awk中使用条件语句"><a href="#awk中使用条件语句" class="headerlink" title="awk中使用条件语句"></a>awk中使用条件语句</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">awk <span class="string">&#x27;布尔表达式&#123;action&#125;&#x27;</span> file</span><br><span class="line"></span><br><span class="line">awk -F: <span class="string">&#x27;($1==&quot;root&quot;)&amp;&amp;($2==&quot;root&quot;) &#123;print $0&#125;&#x27;</span> passwd</span><br></pre></td></tr></table></figure>
+
+<p>仅当对前面的布尔表达式求值为真时， <code>awk</code> 才执行代码块。</p>
+<p><code>awk</code> 也能使用 <code>if</code> 、 <code>else</code> 和 <code>elseif</code> 语句。</p>
+<p>例：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">awk <span class="string">&#x27;if($1==&quot;SET&quot;)&#123;print $0&#125;&#x27;</span> file</span><br></pre></td></tr></table></figure>
+
+<h2 id="awk中使用循环语句"><a href="#awk中使用循环语句" class="headerlink" title="awk中使用循环语句"></a>awk中使用循环语句</h2><p><code>awk</code> 也能使用 <code>while</code> 、 <code>do...while</code> 、 <code>for</code> 、 <code>for...in</code> 、 <code>break</code> 和 <code>continue</code> 等语句。</p>
+<p>例：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">awk <span class="string">&#x27;&#123;for(x=1;x&lt;=3;x++)&#123;print $0&#125;&#125;&#x27;</span> file</span><br></pre></td></tr></table></figure>
+
+<h2 id="awk中的数组"><a href="#awk中的数组" class="headerlink" title="awk中的数组"></a>awk中的数组</h2><p>awk中的数组都是关联数组，数字索引也会转变为字符串索引。</p>
+<p>例：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -an|awk <span class="string">&#x27;/^tcp/&#123;++s[$NF]&#125;END&#123;for(a in s)print a,s[a]&#125;&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="常用字符串函数"><a href="#常用字符串函数" class="headerlink" title="常用字符串函数"></a>常用字符串函数</h2><img src="/2019/04/12/%E5%BC%80%E5%8F%91/Linux/awk%E5%91%BD%E4%BB%A4/subfunc.png" class="" title="awk 常用字符串函数" alt="awk 常用字符串函数">
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2019/04/12/%E5%BC%80%E5%8F%91/Linux/grep%E5%91%BD%E4%BB%A4/" >
+  grep 命令
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2019/04/12/%E5%BC%80%E5%8F%91/Linux/grep%E5%91%BD%E4%BB%A4/"><span class="article-date">
+  2019-04-12
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Linux/">Linux</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/grep/" rel="tag">grep</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%91%BD%E4%BB%A4/" rel="tag">命令</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2018/08/09/%E5%BC%80%E5%8F%91/Java/Java%E5%9F%BA%E7%A1%80/" >
+  Java 基础
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2018/08/09/%E5%BC%80%E5%8F%91/Java/Java%E5%9F%BA%E7%A1%80/"><span class="article-date">
+  2018-08-09
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/">Java</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/" rel="tag">Java</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <h2 id="Some-Links"><a href="#Some-Links" class="headerlink" title="Some Links"></a>Some Links</h2><ul>
+<li><a target="_blank" rel="noopener" href="http://www.javaweb.cc/help/JavaAPI1.6/overview-summary.html">JDK 1.6 在线中文手册</a></li>
+</ul>
+<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>Java语言提供类、接口和继承等原语，为了简单起见，只支持类之间的单继承，但支持接口之间的多继承，并支持类与接口之间的实现机制（关键字为<code>implements</code>）。</p>
+<h2 id="命名方式和大小写"><a href="#命名方式和大小写" class="headerlink" title="命名方式和大小写"></a>命名方式和大小写</h2><ul>
+<li><strong>类名</strong>：对于所有的类来说，类名的<strong>首字母应该大写</strong>。如果类名由若干单词组成，那么每个单词的首字母应该大写，例如<code>MyFirstJavaClass</code>。</li>
+<li><strong>方法名</strong>：所有的方法名都应该以<strong>小写字母开头</strong>。如果方法名含有若干单词，则后面的每个单词首字母大写。</li>
+<li><strong>源文件名</strong>：<strong>源文件名必须和公共类名相同</strong>。当保存文件的时候，你应该使用类名作为文件名保存（切记Java是大小写敏感的），文件名的后缀为.java。（如果文件名和类名不相同则会导致编译错误）。</li>
+<li><strong>主方法入口</strong>：所有的Java 程序由<code>public static void main(String args[])</code>方法开始执行。</li>
+</ul>
+<h2 id="源文件声明规则"><a href="#源文件声明规则" class="headerlink" title="源文件声明规则"></a>源文件声明规则</h2><ul>
+<li>一个源文件中只能有一个<code>public</code>类</li>
+<li>一个源文件可以有多个非<code>public</code>类</li>
+<li>源文件的名称应该和<code>public</code>类的类名保持一致。例如：源文件中<code>public</code>类的类名是Employee，那么源文件应该命名为Employee.java。</li>
+<li>如果一个类定义在某个包中，那么<code>package</code>语句应该在源文件的首行。</li>
+<li>如果源文件包含<code>import</code>语句，那么应该放在package语句和类定义之间。如果没有<code>package</code>语句，那么<code>import</code>语句应该在源文件中最前面。</li>
+<li><code>import</code>语句和<code>package</code>语句对源文件中定义的所有类都有效。在同一源文件中，不能给不同的类不同的包声明。</li>
+</ul>
+<h2 id="Java中的数据类型"><a href="#Java中的数据类型" class="headerlink" title="Java中的数据类型"></a>Java中的数据类型</h2><h3 id="基本数据类型-四大类型"><a href="#基本数据类型-四大类型" class="headerlink" title="基本数据类型 四大类型"></a>基本数据类型 四大类型</h3><ul>
+<li>整数类型<ul>
+<li><code>byte</code>：8位，有符号，以二进制补码表示的整数。</li>
+<li><code>short</code>：16位，有符号，以二进制补码表示的整数。</li>
+<li><code>int</code>：32位，有符号，以二进制补码表示的整数。</li>
+<li><code>long</code>：64位，有符号，以二进制补码表示的整数。</li>
+</ul>
+</li>
+<li>小数（浮点）类型<ul>
+<li><code>float</code>：单精度，32位，符合IEEE 754标准的浮点数。</li>
+<li><code>double</code>：双精度，64位，符合IEEE 754标准的浮点数。</li>
+</ul>
+</li>
+<li>布尔类型<ul>
+<li><code>boolean</code>：表示1位（1 bit）的信息。</li>
+</ul>
+</li>
+<li>字符类型<ul>
+<li><code>char</code>：单一的16位Unicode字符。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><code>void</code>：它也有对应的包装类 java.lang.Void，不过我们无法直接对它们进行操作。</p>
+</blockquote>
+<h3 id="引用数据类型"><a href="#引用数据类型" class="headerlink" title="引用数据类型"></a>引用数据类型</h3><ul>
+<li>引用类型变量由类的构造函数创建，可以使用它们访问所引用的对象。这些变量在声明时被指定为一个特定的类型，比如Employee、Pubby等。变量一旦声明后，类型就不能被改变了。</li>
+<li>对象、数组都是引用数据类型。</li>
+<li>所有引用类型的默认值都是<code>null</code>。</li>
+<li>一个引用变量可以用来引用与任何与之兼容的类型。</li>
+</ul>
+<h3 id="Java常量"><a href="#Java常量" class="headerlink" title="Java常量"></a>Java常量</h3><p>常量就是一个固定值。它们不需要计算，直接代表相应的值。<br>常量指不能改变的量。在Java中用<code>final</code>标志。<br>虽然常量名也可以用小写，但为了便于识别，通常使用大写字母表示常量。  </p>
+<h2 id="Java变量类型"><a href="#Java变量类型" class="headerlink" title="Java变量类型"></a>Java变量类型</h2><h3 id="局部变量"><a href="#局部变量" class="headerlink" title="局部变量"></a>局部变量</h3><ul>
+<li>访问修饰符不能用于局部变量；</li>
+<li>局部变量没有默认值，所以局部变量被声明后，必须经过初始化，才可以使用。</li>
+</ul>
+<h3 id="成员变量（实例变量）"><a href="#成员变量（实例变量）" class="headerlink" title="成员变量（实例变量）"></a>成员变量（实例变量）</h3><ul>
+<li>实例变量可以声明在使用前或者使用后；</li>
+<li>访问修饰符可以修饰实例变量</li>
+<li>实例变量具有默认值。数值型变量的默认值是0，布尔型变量的默认值是<code>false</code>，引用类型变量的默认值是<code>null</code>。变量的值可以在声明时指定，也可以在构造方法中指定；</li>
+<li>实例变量可以直接通过变量名访问。但在静态方法以及其他类中，就应该使用完全限定名：ObejectReference.VariableName。</li>
+</ul>
+<h3 id="类变量（静态变量）"><a href="#类变量（静态变量）" class="headerlink" title="类变量（静态变量）"></a>类变量（静态变量）</h3><ul>
+<li>类变量也称为静态变量，在类中以<code>static</code>关键字声明，但必须在方法、构造方法和语句块之外；</li>
+<li>静态变量除了被声明为常量外很少使用。常量是指声明为<code>public</code>/<code>private</code>，<code>final</code>和<code>static</code>类型的变量，常量初始化后不可改变;</li>
+<li>静态变量储存在静态存储区。经常被声明为常量，很少单独使用<code>static</code>声明变量；</li>
+<li>默认值和实例变量相似。数值型变量默认值是0，布尔型默认值是<code>false</code>，引用类型默认值是<code>null</code>。变量的值可以在声明的时候指定，也可以在构造方法中指定。此外，静态变量还可以在静态语句块中初始化；</li>
+<li>静态变量可以通过：ClassName.VariableName的方式访问；</li>
+<li>类变量被声明为<code>public static final</code>类型时，类变量名称必须使用大写字母。如果静态变量不是<code>public</code>和<code>final</code>类型，其命名方式与实例变量以及局部变量的命名方式一致。</li>
+</ul>
+<h2 id="Java修饰符"><a href="#Java修饰符" class="headerlink" title="Java修饰符"></a>Java修饰符</h2><p>像其他语言一样，Java可以使用修饰符来修饰类中方法和属性。主要有两类修饰符：</p>
+<ul>
+<li>可访问修饰符 : <code>default</code>, <code>public</code> , <code>protected</code>, <code>private</code></li>
+<li>不可访问修饰符 : <code>final</code>, <code>abstract</code>, <code>strictfp</code></li>
+</ul>
+<h3 id="访问控制修饰符"><a href="#访问控制修饰符" class="headerlink" title="访问控制修饰符"></a>访问控制修饰符</h3><ul>
+<li>默认的，也称为<code>default</code>，不使用任何关键字。<br>  使用默认访问修饰符声明的变量和方法，对同一个包内的类是可见的。<br>  接口里的变量都隐式声明为<code>public static final</code>，而接口里的方法默认情况下访问权限为<code>public</code>。</li>
+<li>私有的，以<code>private</code>修饰符指定。<br>  被声明为<code>private</code>的方法、变量和构造方法只能被所属类访问。<br>  类和接口不能声明为<code>private</code>。<br>  声明为私有访问类型的变量只能通过类中公共的getter方法被外部类访问，<code>private</code>访问修饰符的使用主要用来隐藏类的实现细节和保护类的数据。</li>
+<li>共有的，以<code>public</code>修饰符指定。<br>  被声明为<code>public</code>的类、方法、构造方法和接口能够被任何其他类访问。<br>  如果几个相互访问的<code>public</code>类分布在不同的包中，则需要导入相应<code>public</code>类所在的包。<br>  由于类的继承性，类所有的公有方法和变量都能被其子类继承。</li>
+<li>受保护的，以<code>protected</code>修饰符指定。<br>  被声明为<code>protected</code>的变量、方法和构造器能被同一个包中的任何其他类访问，也能够被不同包中的子类访问。<br>  <code>protected</code>访问修饰符不能修饰类和接口，方法和成员变量能够声明为<code>protected</code>，但是接口的成员变量和成员方法不能声明为<code>protected</code>。<br>  子类能访问<code>protected</code>修饰符声明的方法和变量，这样就能保护不相关的类使用这些方法和变量。</li>
+</ul>
+<blockquote>
+<p><strong>访问控制和继承</strong></p>
+<p>请注意以下方法继承的规则</p>
+<ul>
+<li>父类中声明为<code>public</code>的方法在子类中也必须为<code>public</code>。</li>
+<li>父类中声明为<code>protected</code>的方法在子类中要么声明为<code>protected</code>，要么声明为<code>public</code>。不能声明为<code>private</code>。</li>
+<li>父类中默认修饰符声明的方法，能够在子类中声明为<code>private</code>。</li>
+<li>父类中声明为<code>private</code>的方法，不能够被继承</li>
+</ul>
+</blockquote>
+<h3 id="非访问修饰符"><a href="#非访问修饰符" class="headerlink" title="非访问修饰符"></a>非访问修饰符</h3><ul>
+<li><code>static</code>修饰符，用来创建类方法和类变量。<ul>
+<li>静态变量<br>静态变量也被称为类变量。局部变量不能被声明为<code>static</code>变量。</li>
+<li>静态方法<br>静态方法不能使用类的非静态变量。</li>
+</ul>
+</li>
+<li><code>final</code>修饰符，用来修饰类、方法和变量。  <ul>
+<li>final类<br><code>final</code>类不能被继承，没有类能够继承<code>final</code>类的任何特性。</li>
+<li>final方法<br>类中的<code>final</code>方法可以被子类继承，但是不能被子类修改；<br>声明<code>final</code>方法的主要目的是防止该方法的内容被修改。</li>
+<li>final变量<br><code>final</code>修饰的类不能够被继承，修饰的方法不能被继承类重新定义，修饰的变量为常量，是不可修改的。</li>
+</ul>
+</li>
+<li><code>abstract</code>修饰符，用来创建抽象类和抽象方法。  <ul>
+<li>抽象类<br>抽象类不能用来实例化对象，声明抽象类的唯一目的是为了将来对该类进行扩充；<br>一个类不能同时被<code>abstract</code>和<code>final</code>修饰。如果一个类包含抽象方法，那么该类一定要声明为抽象类，否则将出现编译错误；<br>抽象类可以包含抽象方法和非抽象方法。</li>
+<li>抽象方法<br>抽象方法是一种没有任何实现的方法，该方法的的具体实现由子类提供。抽象方法不能被声明成<code>final</code>和<code>static</code>；<br>任何继承抽象类的子类必须实现父类的所有抽象方法，除非该子类也是抽象类；<br>如果一个类包含若干个抽象方法，那么该类必须声明为抽象类。抽象类可以不包含抽象方法；<br>抽象方法的声明以分号结尾。</li>
+</ul>
+</li>
+<li><code>synchronized</code>和<code>volatile</code>修饰符，主要用于线程的编程。  <ul>
+<li>synchronized修饰符<br><code>synchronized</code>关键字声明的方法同一时间只能被一个线程访问。<br><code>synchronized</code>修饰符可以应用于四个访问修饰符。</li>
+<li><code>transient</code>修饰符<br>序列化的对象包含被<code>transient</code>修饰的实例变量时，java虚拟机(JVM)跳过该特定的变量。</li>
+<li><code>volatile</code>修饰符<br><code>volatile</code>修饰的成员变量在每次被线程访问时，都强迫从共享内存中重读该成员变量的值。<br>当成员变量发生变化时，强迫线程将变化值回写到共享内存。<br>这样在任何时刻，两个不同的线程总是看到某个成员变量的同一个值。一个<code>volatile</code>对象引用可能是null。</li>
+</ul>
+</li>
+</ul>
+<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><p><code>String</code>类是不可改变的，所以你一旦创建了<code>String</code>对象，那它的值就无法改变了。<br>如果需要对字符串做很多修改，那么应该选择使用<code>StringBuffer</code>或<code>StringBuilder</code>类。</p>
+<h2 id="重写-Override-与重载-Overload"><a href="#重写-Override-与重载-Overload" class="headerlink" title="重写(Override)与重载(Overload)"></a>重写(Override)与重载(Overload)</h2><h3 id="重写-Override"><a href="#重写-Override" class="headerlink" title="重写(Override)"></a>重写(Override)</h3><ul>
+<li>参数列表<strong>必须</strong>完全与被重写方法的相同；</li>
+<li>返回类型<strong>必须</strong>完全与被重写方法的返回类型相同；</li>
+<li>访问权限<strong>不能</strong>比父类中被重写的方法的访问权限更高；</li>
+<li>父类的成员方法只能被它的子类重写；</li>
+<li>声明为<code>final</code>的方法不能被重写；</li>
+<li>声明为<code>static</code>的方法不能被重写，但是能够被再次声明；</li>
+<li>如果一个方法不能被继承，那么该方法不能被重写；</li>
+<li>重写的方法能够抛出任何非强制异常，无论被重写的方法是否抛出异常；但是，重写的方法不能抛出新的强制性异常，或者比被重写方法声明的更广泛的强制性异常，反之则可以；</li>
+<li>构造方法不能被重写。</li>
+<li>当需要在子类中调用父类的被重写方法时，要使用<code>super</code>关键字。</li>
+</ul>
+<h3 id="重载-Overload"><a href="#重载-Overload" class="headerlink" title="重载(Overload)"></a>重载(Overload)</h3><ul>
+<li>被重载的方法<strong>必须</strong>改变参数列表；</li>
+<li>被重载的方法<strong>可以</strong>改变返回类型；</li>
+<li>被重载的方法<strong>可以</strong>改变访问修饰符；</li>
+<li>被重载的方法<strong>可以</strong>声明新的或更广的检查异常；</li>
+<li>方法能够在同一个类中或者在一个子类中被重载。</li>
+</ul>
+<p>重写与重载之间的区别：</p>
+<table>
+<thead>
+<tr>
+<th>区别点</th>
+<th>重载方法</th>
+<th>重写方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>参数列表</td>
+<td>必须修改</td>
+<td>一定不能修改</td>
+</tr>
+<tr>
+<td>返回类型</td>
+<td>可以修改</td>
+<td>一定不能修改</td>
+</tr>
+<tr>
+<td>异常</td>
+<td>可以修改</td>
+<td>可以减少或删除，一定不能抛出新的或者更广的异常</td>
+</tr>
+<tr>
+<td>访问</td>
+<td>可以修改</td>
+<td>一定不能做更严格的限制（可以降低限制）</td>
+</tr>
+</tbody></table>
+<h2 id="泛型方法和泛型类"><a href="#泛型方法和泛型类" class="headerlink" title="泛型方法和泛型类"></a>泛型方法和泛型类</h2><h3 id="泛型方法"><a href="#泛型方法" class="headerlink" title="泛型方法"></a>泛型方法</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">访问修饰符 &lt;T&gt; 返回值类型 方法名( T 参数名, [参数类型 参数名, ...] ) &#123;</span><br><span class="line">    ...</span><br><span class="line">    方法体</span><br><span class="line">    ...</span><br><span class="line">    [<span class="keyword">return</span> 返回值;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="泛型类"><a href="#泛型类" class="headerlink" title="泛型类"></a>泛型类</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">访问修饰符 <span class="class"><span class="keyword">class</span> 类名&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    访问修饰符 T 变量名;</span><br><span class="line">    ...</span><br><span class="line">    成员方法</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2018/07/19/%E5%B7%A5%E5%85%B7/IntelliJ%20Idea%E7%9A%84%E7%A0%B4%E8%A7%A3/" >
+  IntelliJ Idea 的破解
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2018/07/19/%E5%B7%A5%E5%85%B7/IntelliJ%20Idea%E7%9A%84%E7%A0%B4%E8%A7%A3/"><span class="article-date">
+  2018-07-19
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IntelliJ-Idea/" rel="tag">IntelliJ Idea</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag">工具</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%A0%B4%E8%A7%A3/" rel="tag">破解</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%BD%AF%E4%BB%B6/" rel="tag">软件</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <p><a target="_blank" rel="noopener" href="http://idea.lanyus.com/">参考链接</a></p>
+<h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>License Server：</p>
+<pre><code>http://xdouble.cn:8888/</code></pre>
+<h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><blockquote>
+<p>2018版本已失效，参考该<a target="_blank" rel="noopener" href="http://idea.lanyus.com/">链接</a></p>
+</blockquote>
+<ol>
+<li><p>将补丁<code>JetbrainsCrack-2.7-release-str.jar</code>放在安装包的/bin路径下；</p>
+</li>
+<li><p>对本文件夹<code>bin</code>下的<code>idea.vmoptions</code>配置文件进行修改（可能是版本还是不同操作系统的原因，有人可能没有<code>idea.vmoptions</code>,但是有<code>idea.exe.vmoptions</code>和<code>idea64.exe.vmoptions</code>这两个文件，在这里面进行配置应该也是一样），打开后在最后一行添加如下一条配置指令：</p>
+<p>windows版：</p>
+<pre><code>-javaagent:D:/indea/bin/JetbrainsCrack-2.7-release-str.jar</code></pre>
+<p>Mac版：</p>
+<pre><code>-javaagent:../bin/JetbrainsCrack-2.7-release-str.jar</code></pre>
+</li>
+<li><p>保存编辑后的文件，然后打开idea，进入激活窗口此时需要选择<code>激活码</code>的激活方式，并输入如下激活码进行激活：</p>
+<p>Activation Code:</p>
+<pre><code>BIG3CLIK6F-eyJsaWNlbnNlSWQiOiJCSUczQ0xJSzZGIiwibGljZW5zZWVOYW1lIjoibGFuIHl1IiwiYXNzaWduZWVOYW1lIjoiIiwiYXNzaWduZWVFbWFpbCI6IiIsImxpY2Vuc2VSZXN0cmljdGlvbiI6IkZvciBlZHVjYXRpb25hbCB1c2Ugb25seSIsImNoZWNrQ29uY3VycmVudFVzZSI6ZmFsc2UsInByb2R1Y3RzIjpbeyJjb2RlIjoiQUMiLCJwYWlkVXBUbyI6IjIwMTctMTEtMjMifSx7ImNvZGUiOiJETSIsInBhaWRVcFRvIjoiMjAxNy0xMS0yMyJ9LHsiY29kZSI6IklJIiwicGFpZFVwVG8iOiIyMDE3LTExLTIzIn0seyJjb2RlIjoiUlMwIiwicGFpZFVwVG8iOiIyMDE3LTExLTIzIn0seyJjb2RlIjoiV1MiLCJwYWlkVXBUbyI6IjIwMTctMTEtMjMifSx7ImNvZGUiOiJEUE4iLCJwYWlkVXBUbyI6IjIwMTctMTEtMjMifSx7ImNvZGUiOiJSQyIsInBhaWRVcFRvIjoiMjAxNy0xMS0yMyJ9LHsiY29kZSI6IlBTIiwicGFpZFVwVG8iOiIyMDE3LTExLTIzIn0seyJjb2RlIjoiREMiLCJwYWlkVXBUbyI6IjIwMTctMTEtMjMifSx7ImNvZGUiOiJEQiIsInBhaWRVcFRvIjoiMjAxNy0xMS0yMyJ9LHsiY29kZSI6IlJNIiwicGFpZFVwVG8iOiIyMDE3LTExLTIzIn0seyJjb2RlIjoiUEMiLCJwYWlkVXBUbyI6IjIwMTctMTEtMjMifSx7ImNvZGUiOiJDTCIsInBhaWRVcFRvIjoiMjAxNy0xMS0yMyJ9XSwiaGFzaCI6IjQ3NzU1MTcvMCIsImdyYWNlUGVyaW9kRGF5cyI6MCwiYXV0b1Byb2xvbmdhdGVkIjpmYWxzZSwiaXNBdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlfQ==-iygsIMXTVeSyYkUxAqpHmymrgwN5InkOfeRhhPIPa88FO9FRuZosIBTY18tflChACznk3qferT7iMGKm7pumDTR4FbVVlK/3n1ER0eMKu2NcaXb7m10xT6kLW1Xb3LtuZEnuis5pYuEwT1zR7GskeNWdYZ0dAJpNDLFrqPyAPo5s1KLDHKpw+VfVd4uf7RMjOIzuJhAAYAG+amyivQt61I9aYiwpHQvUphvTwi0X0qL/oDJHAQbIv4Qwscyo4aYZJBKutYioZH9rgOP6Yw/sCltpoPWlJtDOcw/iEWYiCVG1pH9AWjCYXZ9AbbEBOWV71IQr5VWrsqFZ7cg7hLEJ3A==-MIIEPjCCAiagAwIBAgIBBTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE1MTEwMjA4MjE0OFoXDTE4MTEwMTA4MjE0OFowETEPMA0GA1UEAwwGcHJvZDN5MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxcQkq+zdxlR2mmRYBPzGbUNdMN6OaXiXzxIWtMEkrJMO/5oUfQJbLLuMSMK0QHFmaI37WShyxZcfRCidwXjot4zmNBKnlyHodDij/78TmVqFl8nOeD5+07B8VEaIu7c3E1N+e1doC6wht4I4+IEmtsPAdoaj5WCQVQbrI8KeT8M9VcBIWX7fD0fhexfg3ZRt0xqwMcXGNp3DdJHiO0rCdU+Itv7EmtnSVq9jBG1usMSFvMowR25mju2JcPFp1+I4ZI+FqgR8gyG8oiNDyNEoAbsR3lOpI7grUYSvkB/xVy/VoklPCK2h0f0GJxFjnye8NT1PAywoyl7RmiAVRE/EKwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQC9WZuYgQedSuOc5TOUSrRigMw4/+wuC5EtZBfvdl4HT/8vzMW/oUlIP4YCvA0XKyBaCJ2iX+ZCDKoPfiYXiaSiH+HxAPV6J79vvouxKrWg2XV6ShFtPLP+0gPdGq3x9R3+kJbmAm8w+FOdlWqAfJrLvpzMGNeDU14YGXiZ9bVzmIQbwrBA+c/F4tlK/DV07dsNExihqFoibnqDiVNTGombaU2dDup2gwKdL81ua8EIcGNExHe82kjF4zwfadHk3bQVvbfdAwxcDy4xBjs3L4raPLU3yenSzr/OEur1+jfOxnQSmEcMXKXgrAQ9U55gwjcOFKrgOxEdek/Sk1VfOjvS+nuM4eyEruFMfaZHzoQiuw4IqgGc45ohFH0UUyjYcuFxxDSU9lMCv8qdHKm+wnPRb0l9l5vXsCBDuhAGYD6ss+Ga+aDY6f/qXZuUCEUOH3QUNbbCUlviSz6+GiRnt1kA9N2Qachl+2yBfaqUqr8h7Z2gsx5LcIf5kYNsqJ0GavXTVyWh7PYiKX4bs354ZQLUwwa/cG++2+wNWP+HtBhVxMRNTdVhSm38AknZlD+PTAsWGu9GyLmhti2EnVwGybSD2Dxmhxk3IPCkhKAK+pl0eWYGZWG3tJ9mZ7SowcXLWDFAk0lRJnKGFMTggrWjV8GYpw5bq23VmIqqDLgkNzuoog==</code></pre>
+</li>
+<li><p>完工。</p>
+</li>
+</ol>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2018/07/19/%E5%B7%A5%E5%85%B7/Scoop%E7%9A%84%E5%AE%89%E8%A3%85%E3%80%81%E4%BD%BF%E7%94%A8%E5%8F%8A%E8%AE%BE%E7%BD%AE/" >
+  Scoop 的安装、使用及设置
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2018/07/19/%E5%B7%A5%E5%85%B7/Scoop%E7%9A%84%E5%AE%89%E8%A3%85%E3%80%81%E4%BD%BF%E7%94%A8%E5%8F%8A%E8%AE%BE%E7%BD%AE/"><span class="article-date">
+  2018-07-19
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Scoop/" rel="tag">Scoop</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <ul>
+<li><a target="_blank" rel="noopener" href="https://scoop.sh/">官方地址</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/lukesampson/scoop">仓库地址</a></li>
+</ul>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>使用<code>PowerShell</code></p>
+<ol>
+<li><p>打开策略</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">set-executionpolicy remotesigned -scope currentuser</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>安装Scoop到指定目录</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 配置安装位置</span></span><br><span class="line"><span class="meta">$</span><span class="bash">env:SCOOP=<span class="string">&#x27;F:\scoop&#x27;</span></span></span><br><span class="line">[environment]::setEnvironmentVariable(&#x27;SCOOP&#x27;,$env:SCOOP,&#x27;User&#x27;)</span><br><span class="line"><span class="meta">#</span><span class="bash"> 安装命令</span></span><br><span class="line">Invoke-Expression (New-Object System.Net.WebClient).DownloadString(&#x27;https://get.scoop.sh&#x27;)</span><br><span class="line"><span class="meta">#</span><span class="bash"> 或者</span></span><br><span class="line">iwr -useb get.scoop.sh | iex</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><ol>
+<li><p>设置Scoop全局安装位置</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash">env:SCOOP_GLOBAL=<span class="string">&#x27;f:\scoop_apps&#x27;</span></span></span><br><span class="line">[environment]::setEnvironmentVariable(&#x27;SCOOP_GLOBAL&#x27;,$env:SCOOP_GLOBAL,&#x27;Machine&#x27;)</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><ol>
+<li><p>安装目标软件</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop install -g &lt;app&gt;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h2 id="添加仓库"><a href="#添加仓库" class="headerlink" title="添加仓库"></a>添加仓库</h2><h3 id="添加官方仓库"><a href="#添加官方仓库" class="headerlink" title="添加官方仓库"></a>添加官方仓库</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">scoop bucket known</span><br><span class="line">scoop bucket add &lt;bucket&gt;</span><br></pre></td></tr></table></figure>
+
+<p>部分官方仓库说明</p>
+<ul>
+<li>main: 主要是一些为了方便 Windows 开发者安装和配置的开发工具，需符合以下条件<ul>
+<li>必须是主流的开发者工具</li>
+<li>必须是维护中的最新版本的软件</li>
+<li>必须是完整版本（非<code>Trial</code>版本）的软件</li>
+<li>不可以有复杂的安装前与安装后处理步骤</li>
+<li>不可以有<code>GUI</code></li>
+</ul>
+</li>
+<li>extra: 涵盖了大部分因为种种原因不能被收录进主仓库的常用软件。地址：<a target="_blank" rel="noopener" href="https://github.com/lukesampson/scoop-extras/tree/master/bucket">lukesampson/scoop-extras</a></li>
+<li>nirsoft: 一个 NirSoft 开发的小工具的安装合集。NirSoft 制作了大量的（dozens and dozens）小工具，包括系统工具、网络工具、密码恢复等等，孜孜不倦、持续更新。Bucket地址：<a target="_blank" rel="noopener" href="https://github.com/kodybrown/scoop-nirsoft">kodybrown/scoop-nirsoft</a></li>
+<li>games: 游戏（和与游戏相关的工具）合集。地址<a target="_blank" rel="noopener" href="https://github.com/Calinou/scoop-games">Calinou/scoop-games</a></li>
+</ul>
+<h3 id="添加社区仓库"><a href="#添加社区仓库" class="headerlink" title="添加社区仓库"></a>添加社区仓库</h3><ol>
+<li><p>添加仓库</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop bucket add &lt;仓库名&gt; &lt;仓库地址&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>安装软件</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop install dorado/&lt;App名&gt;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>这里是一个按照 Github score（由 Star 数量、Fork 数量和 App 数量综合决定的 Github score）排列的 bucket 列表：<a target="_blank" rel="noopener" href="https://github.com/rasa/scoop-directory/blob/master/by-score.md">Scoop buckets by Github score</a></p>
+<h3 id="添加自定义仓库"><a href="#添加自定义仓库" class="headerlink" title="添加自定义仓库"></a>添加自定义仓库</h3><p>我们可以自己维护一个 bucket (<a target="_blank" rel="noopener" href="https://github.com/lukesampson/scoop/wiki/Buckets#creating-your-own-bucket">Creating your own bucket</a>)，在里面写上我们所需要软件的安装步骤配置文件，从而自定义一个我们自己的 bucket。以在 GitHub 上托管一个名字为 <code>my-bucket</code> 的 bucket 为例子：</p>
+<ol>
+<li><p>建立一个 GitHub 仓库名为 <code>my-bucket</code>。</p>
+</li>
+<li><p>在 <code>PowerShell</code> 中执行下面的操作，向 <code>my-bucket</code> 中添加一个名字叫 <code>hello</code> 的 App。</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># 将仓库克隆至本地</span><br><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;&lt;你的 GitHub 用户名&gt;&#x2F;my-bucket</span><br><span class="line"># 进入 my-bucket</span><br><span class="line">cd my-bucket</span><br><span class="line"># 创建 App 的安装配置文件 hello.json</span><br><span class="line">&#39;&#123; version: &quot;1.0&quot;, url: &quot;https:&#x2F;&#x2F;gist.github.com&#x2F;lukesampson&#x2F;6446238&#x2F;raw&#x2F;hello.ps1&quot;, bin: &quot;hello.ps1&quot; &#125;&#39; &gt; hello.json</span><br><span class="line"># 将本地更改同步至 GitHub</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;add hello app&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在 Scoop 中将 <code>my-bucket</code> 添加至你的 Scoop bucket 列表</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scoop bucket add my-bucket https://github.com/&lt;你的 GitHub 用户名&gt;/my-bucket</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>测试是否成功：</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 安装 hello 这个 App</span></span><br><span class="line">scoop install hello</span><br><span class="line"><span class="meta">#</span><span class="bash"> 运行 hello</span></span><br><span class="line">hello</span><br></pre></td></tr></table></figure>
+
+<p> 你应该会看到<code>Hello, &lt;你的 Windows 用户名&gt;!</code>。</p>
+</li>
+</ol>
+<p>这就是官方给出的自定义 bucket 的 demo，你需要继续对 hello.json 进行配置，包括你所想要安装 App 的下载地址、安装步骤等一系列配置方法。这些操作更为复杂，我在这里不继续介绍了，感兴趣的话请参考：<a target="_blank" rel="noopener" href="https://github.com/lukesampson/scoop/wiki/App-Manifests">App Manifests</a></p>
+<h2 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h2><p>Scoop 是一个强大的工具，有着极大的可玩性、设计与实现理念，包括但不限于 <code>shim</code> 的软链接理念、利用 <code>persist</code> 存储用户数据等等，如果你感兴趣，请直接参考 <a target="_blank" rel="noopener" href="https://github.com/lukesampson/scoop/wiki">Scoop 官方的 Wiki</a></p>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2018/07/19/%E5%B7%A5%E5%85%B7/bat%E5%B0%8F%E5%B7%A5%E5%85%B7/" >
+  bat 小工具
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2018/07/19/%E5%B7%A5%E5%85%B7/bat%E5%B0%8F%E5%B7%A5%E5%85%B7/"><span class="article-date">
+  2018-07-19
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/bat/" rel="tag">bat</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cmd/" rel="tag">cmd</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <h3 id="重建图标缓存"><a href="#重建图标缓存" class="headerlink" title="重建图标缓存"></a>重建图标缓存</h3><figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">rem 关闭Windows外壳程序explorer</span></span><br><span class="line"><span class="built_in">taskkill</span> /f /im explorer.exe</span><br><span class="line"><span class="comment">rem 清理系统图标缓存数据库</span></span><br><span class="line"><span class="built_in">attrib</span> -h -s -r &quot;<span class="variable">%userprofile%</span>\AppData\Local\IconCache.db&quot;</span><br><span class="line"><span class="built_in">del</span> /f &quot;<span class="variable">%userprofile%</span>\AppData\Local\IconCache.db&quot;</span><br><span class="line"><span class="built_in">attrib</span> /s /d -h -s -r &quot;<span class="variable">%userprofile%</span>\AppData\Local\Microsoft\Windows\Explorer\*&quot;</span><br><span class="line"><span class="built_in">del</span> /f &quot;<span class="variable">%userprofile%</span>\AppData\Local\Microsoft\Windows\Explorer\thumbcache_32.db&quot;</span><br><span class="line"><span class="built_in">del</span> /f &quot;<span class="variable">%userprofile%</span>\AppData\Local\Microsoft\Windows\Explorer\thumbcache_96.db&quot;</span><br><span class="line"><span class="built_in">del</span> /f &quot;<span class="variable">%userprofile%</span>\AppData\Local\Microsoft\Windows\Explorer\thumbcache_102.db&quot;</span><br><span class="line"><span class="built_in">del</span> /f &quot;<span class="variable">%userprofile%</span>\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db&quot;</span><br><span class="line"><span class="built_in">del</span> /f &quot;<span class="variable">%userprofile%</span>\AppData\Local\Microsoft\Windows\Explorer\thumbcache_1024.db&quot;</span><br><span class="line"><span class="built_in">del</span> /f &quot;<span class="variable">%userprofile%</span>\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db&quot;</span><br><span class="line"><span class="built_in">del</span> /f &quot;<span class="variable">%userprofile%</span>\AppData\Local\Microsoft\Windows\Explorer\thumbcache_sr.db&quot;</span><br><span class="line"><span class="comment">rem 清理 系统托盘记忆的图标</span></span><br><span class="line"><span class="built_in">echo</span> y|reg delete &quot;HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify&quot; /v IconStreams</span><br><span class="line"><span class="built_in">echo</span> y|reg delete &quot;HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify&quot; /v PastIconsStream</span><br><span class="line"><span class="comment">rem 重启Windows外壳程序explorer</span></span><br><span class="line"><span class="built_in">start</span> explorer</span><br></pre></td></tr></table></figure>
+
+<h3 id="添加删除右键菜单"><a href="#添加删除右键菜单" class="headerlink" title="添加删除右键菜单"></a>添加删除右键菜单</h3><figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">ECHO</span> OFF &amp; <span class="built_in">SETLOCAL</span> ENABLEDELAYEDEXPANSION &amp; <span class="built_in">PUSHD</span> %~DP0 &amp; <span class="built_in">TITLE</span> 添加资源管理器右键</span><br><span class="line"><span class="built_in">ECHO</span>.******************** 添加/删除右键菜单 ********************</span><br><span class="line"><span class="built_in">ECHO</span>.&amp;<span class="built_in">ECHO</span>.<span class="number">1</span>、添加右键菜单</span><br><span class="line"><span class="built_in">ECHO</span>.&amp;<span class="built_in">ECHO</span>.<span class="number">2</span>、删除右键菜单</span><br><span class="line"><span class="built_in">ECHO</span>.&amp;<span class="built_in">SET</span> /P Operate=请选择操作：</span><br><span class="line"><span class="keyword">IF</span> <span class="variable">%Operate%</span> <span class="keyword">EQU</span> <span class="number">1</span> (</span><br><span class="line">    <span class="built_in">SET</span> /P KeyName=请输入项名称：</span><br><span class="line">    <span class="built_in">SET</span> /P <span class="built_in">Title</span>=请输入右键菜单名：</span><br><span class="line">    <span class="built_in">Set</span> /P FilePath=请输入执行文件路径：</span><br><span class="line">    reg add &quot;HKLM\SOFTWARE\Classes\*\shell\<span class="variable">!KeyName!</span>&quot; /ve /d &quot;<span class="variable">!Title!</span>&quot; /F&gt;<span class="built_in">NUL</span></span><br><span class="line">    reg add &quot;HKLM\SOFTWARE\Classes\*\shell\<span class="variable">!KeyName!</span>&quot; /v icon /d &quot;<span class="variable">!FilePath!</span>&quot; /F&gt;<span class="built_in">NUL</span></span><br><span class="line">    reg add &quot;HKLM\SOFTWARE\Classes\*\shell\<span class="variable">!KeyName!</span>\command&quot; /ve /d &quot;<span class="variable">!FilePath!</span> %<span class="number">1</span>&quot; /F&gt;<span class="built_in">NUL</span></span><br><span class="line">) <span class="keyword">ELSE</span> <span class="keyword">IF</span> <span class="variable">%Operate%</span> <span class="keyword">EQU</span> <span class="number">2</span> (</span><br><span class="line">    <span class="built_in">SET</span> /P KeyNameDel=请输入项名称：</span><br><span class="line">    reg delete &quot;HKLM\SOFTWARE\Classes\*\shell\<span class="variable">!KeyNameDel!</span>&quot; /F&gt;<span class="built_in">NUL</span> <span class="number">2</span>&gt;<span class="built_in">NUL</span></span><br><span class="line">) <span class="keyword">ELSE</span> <span class="built_in">ECHO</span>.选择错误</span><br><span class="line"></span><br><span class="line"><span class="built_in">ECHO</span>.&amp;<span class="built_in">ECHO</span>.完成！请按任意键或直接关闭！&amp;<span class="built_in">PAUSE</span> &gt;<span class="built_in">NUL</span> <span class="number">2</span>&gt;<span class="built_in">NUL</span></span><br></pre></td></tr></table></figure>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2018/07/19/%E5%B7%A5%E5%85%B7/chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/" >
+  Chrome 浏览器常用插件
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2018/07/19/%E5%B7%A5%E5%85%B7/chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6/"><span class="article-date">
+  2018-07-19
+</span>
+</a>
+        
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a></li></ul>
+	</span>
+
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Chrome/" rel="tag">Chrome</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Chrome-%E6%8F%92%E4%BB%B6/" rel="tag">Chrome 插件</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <h2 id="Restlet-Client-REST-API-Testing"><a href="#Restlet-Client-REST-API-Testing" class="headerlink" title="Restlet Client - REST API Testing"></a>Restlet Client - REST API Testing</h2><blockquote>
+<p>aejoelaoggembcahagimdiliamlcdmfm</p>
+</blockquote>
+<p>Http请求测试工具</p>
+<h2 id="Markdown-Viewer"><a href="#Markdown-Viewer" class="headerlink" title="Markdown Viewer"></a>Markdown Viewer</h2><blockquote>
+<p>ckkdlimhmcjmikdlpkmbgfkaikojcbjk</p>
+</blockquote>
+<h2 id="Markdown-Preview-Plus"><a href="#Markdown-Preview-Plus" class="headerlink" title="Markdown Preview Plus"></a>Markdown Preview Plus</h2><blockquote>
+<p>febilkbfcbhebfnokafefeacimjdckgl</p>
+</blockquote>
+<h2 id="bilibili哔哩哔哩下载助手"><a href="#bilibili哔哩哔哩下载助手" class="headerlink" title="bilibili哔哩哔哩下载助手"></a>bilibili哔哩哔哩下载助手</h2><blockquote>
+<p>bfcbfobhcjbkilcbehlnlchiinokiijp</p>
+</blockquote>
+<h2 id="Tampermonkey"><a href="#Tampermonkey" class="headerlink" title="Tampermonkey"></a>Tampermonkey</h2><blockquote>
+<p>dhdgffkkebhmkfjojejmpbldmpobfkfo</p>
+</blockquote>
+<h2 id="Taskade-Team-Tasks-Notes-and-Video-Chat"><a href="#Taskade-Team-Tasks-Notes-and-Video-Chat" class="headerlink" title="Taskade - Team Tasks, Notes, and Video Chat"></a>Taskade - Team Tasks, Notes, and Video Chat</h2><blockquote>
+<p>hcobdfnjjaceclfdjpmmpiknimccjpmf</p>
+</blockquote>
+<h2 id="Vue-js-devtools"><a href="#Vue-js-devtools" class="headerlink" title="Vue.js devtools"></a>Vue.js devtools</h2><blockquote>
+<p>nhdogjmejiglipccpnnnanhbledajbpd</p>
+</blockquote>
+<h2 id="谷歌上网助手"><a href="#谷歌上网助手" class="headerlink" title="谷歌上网助手"></a>谷歌上网助手</h2><p>cieikaeocafmceoapfogpffaalkncpkc</p>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
+
+
+
+  <div class="pagination">
+    <a class="extend prev" rel="prev" href="/">上一页</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/3/">下一页</a>
+  </div>
+
+
+
+
+          <div class="main-footer">
+  
+    © 2020 Hexo - Powered by <a href="http://hexo.io" target="_blank">Hexo</a> - Theme <a href="https://github.com/denjones/hexo-theme-chan" target="_blank">Chan</a>
+  
+</div>
+
+      
+        </div>
+      
+    </div>
+  </div>
+  
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/PhotoSwipe/photoswipe.css">
+
+  
+<link rel="stylesheet" href="/PhotoSwipe/default-skin/default-skin.css">
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+             It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<script src="/PhotoSwipe/photoswipe.js"></script>
+
+  
+<script src="/PhotoSwipe/photoswipe-ui-default.js"></script>
+
+
+
+
+<script src="/perfect-scrollbar/js/min/perfect-scrollbar.min.js"></script>
+
+
+<script src="/scripts/main.js"></script>
+
+
+<script src="/scripts/copycode.js"></script>
+
+
+</body>
+</html>
